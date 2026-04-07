@@ -1,1 +1,5 @@
 .obsidian/workspace*
+*.log
+.obsidian/cache
+.trash/
+.DS_Store
