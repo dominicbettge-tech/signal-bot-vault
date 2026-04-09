@@ -6,70 +6,74 @@
 - GitHub: https://github.com/taranis-ai/taranis-ai
 - Docs: https://taranis.ai/docs/
 
+## Status: PAUSIERT (2026-04-09)
+
+Images gelöscht, Dateien unter `/root/taranis/` noch vorhanden. Neustart erst nach Klärung der Ressourcenfrage.
+
+## Problem: Nicht nutzbar auf aktuellem Server
+
+**VPS:** Hostinger MK2 — 7.8 GB RAM, kein Swap
+
+Die drei AI-Bots benötigen zusammen ~40 GB Disk und schätzungsweise 6-10 GB RAM im Betrieb:
+
+| Bot | Image-Größe | RAM (ca.) |
+|---|---|---|
+| `taranis-natural-language-processing` | 15.4 GB | 2-4 GB |
+| `taranis-summarize-bot` | 13.4 GB | 2-4 GB |
+| `taranis-story-clustering` | 12.8 GB | 2-3 GB |
+
+Beim ersten Start (alle Container gleichzeitig) brach der Server zusammen: Load Average stieg auf **68**, Terminal nicht mehr bedienbar.
+
+Taranis **ohne** AI-Bots (nur Core + Frontend + Collector) wäre technisch möglich (~500 MB RAM), aber dann fehlt der Hauptnutzen.
+
+## Optionen
+
+- [ ] **Option A:** Server-Upgrade auf 16 GB RAM (Hostinger ~$15-20/month mehr)
+- [ ] **Option B:** Taranis ohne AI-Bots betreiben — nur als News-RSS-Aggregator für den Binance Bot
+- [ ] **Option C:** Taranis auf separatem Server oder Cloud-Instanz
+
 ## Installation (2026-04-09)
 
-Installiert auf VPS Hostinger MK2 (187.124.166.210) via:
+Installiert via:
 ```bash
 curl -fsSL https://taranis.ai/install.sh | bash
 ```
 
-**Problem:** Installer lief aus `/root/signal_bot/` → hat das Signal Bot `.env` überschrieben.  
+**Problem beim Install:** Installer lief aus `/root/signal_bot/` → hat das Signal Bot `.env` überschrieben.
 **Fix:** Signal Bot `.env` aus `.env.bak.1775760768` wiederhergestellt. Taranis-Dateien nach `/root/taranis/` verschoben.
 
-## Konfiguration
+**Port:** 8090 (statt Default 8080 — belegt durch Signal Bot Dashboard)
+
+## Dateien
 
 | Datei | Pfad |
 |---|---|
 | compose.yml | `/root/taranis/compose.yml` |
 | .env | `/root/taranis/.env` |
 
-**Port:** 8090 (statt Default 8080 — belegt durch Signal Bot Dashboard)
-
-## Zugang
+## Zugang (wenn aktiv)
 
 - URL: http://187.124.166.210:8090
 - Admin: `admin` / `admin` ← **ändern!**
 
-## Services (Docker)
-
-| Container | Aufgabe |
-|---|---|
-| taranis-ingress-1 | Nginx Reverse Proxy (Port 8090) |
-| taranis-frontend-1 | Flask/HTMX UI |
-| taranis-core-1 | Backend/REST API |
-| taranis-workers-1 | Celery Worker |
-| taranis-collector-1 | News-Quellen Collector |
-| taranis-nlp_bot-1 | NLP-Analyse Bot |
-| taranis-summary_bot-1 | Zusammenfassungs-Bot |
-| taranis-story_bot-1 | Story-Aggregations-Bot |
-| taranis-database-1 | PostgreSQL |
-| taranis-rabbitmq-1 | Message Broker |
-
 ## Verwaltung
 
 ```bash
+# Starten
+cd /root/taranis && docker compose up -d
+
+# Stoppen
+cd /root/taranis && docker compose down
+
 # Status
 docker ps --filter "name=taranis"
-
-# Starten / Stoppen
-cd /root/taranis && docker compose up -d
-cd /root/taranis && docker compose down
 
 # Logs
 docker logs taranis-core-1 -f
 ```
 
-## Passwort ändern
+## Nächste Schritte (offen)
 
-In `/root/taranis/.env`:
-```
-PRE_SEED_PASSWORD_ADMIN=neues_passwort
-```
-Dann: `docker compose down && docker compose up -d`  
-(nur beim ersten Start wirksam — bei bestehender DB via UI ändern)
-
-## Nächste Schritte
-
-- [ ] Default Sources laden: http://187.124.166.210:8090/config/sources → "load default sources"
-- [ ] Admin-Passwort ändern
-- [ ] Use Case klären: für Signal Bot Kontext nutzen?
+- [ ] Entscheidung: Option A, B oder C?
+- [ ] Use Case klären: für Binance Bot News-Layer nutzen?
+- [ ] Admin-Passwort ändern (nach Neuinstall via UI)
