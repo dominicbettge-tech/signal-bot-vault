@@ -6,9 +6,26 @@
 - GitHub: https://github.com/taranis-ai/taranis-ai
 - Docs: https://taranis.ai/docs/
 
-## Status: PAUSIERT (2026-04-09)
+## Status: PAUSIERT — Server-Upgrade ausstehend (2026-04-10)
 
-Images gelöscht, Dateien unter `/root/taranis/` noch vorhanden. Neustart erst nach Klärung der Ressourcenfrage.
+Images gelöscht, Dateien unter `/root/taranis/` noch vorhanden. Neustart nach Server-Upgrade.
+
+## Entscheidung: Option A — Server-Upgrade (2026-04-10)
+
+**Hostinger Upgrade auf 16 GB RAM gewählt:**
+- Preis: **21,49€/Monat** (12 Monate, inkl. 40% Rabatt)
+- 4 vCPU, 16 GB RAM, 200 GB NVMe, 16 TB Bandbreite
+- Wöchentliche Backups + 1 Snapshot inklusive
+- Aktueller Disk-Verbrauch: ~40 GB → passt locker
+
+RAM-Verteilung nach Upgrade:
+| Service | RAM |
+|---|---|
+| Signal Bot + IBKR Gateway | ~1–2 GB |
+| Taranis AI-Bots | ~6–10 GB |
+| Researcher + Ollama | ~2–3 GB |
+| OS + Puffer | ~2 GB |
+| **Gesamt** | ~11–17 GB ✅ |
 
 ## Problem: Nicht nutzbar auf aktuellem Server
 
@@ -24,12 +41,10 @@ Die drei AI-Bots benötigen zusammen ~40 GB Disk und schätzungsweise 6-10 GB RA
 
 Beim ersten Start (alle Container gleichzeitig) brach der Server zusammen: Load Average stieg auf **68**, Terminal nicht mehr bedienbar.
 
-Taranis **ohne** AI-Bots (nur Core + Frontend + Collector) wäre technisch möglich (~500 MB RAM), aber dann fehlt der Hauptnutzen.
+## Optionen (Entscheidung getroffen)
 
-## Optionen
-
-- [ ] **Option A:** Server-Upgrade auf 16 GB RAM (Hostinger ~$15-20/month mehr)
-- [ ] **Option B:** Taranis ohne AI-Bots betreiben — nur als News-RSS-Aggregator für den Binance Bot
+- [x] **Option A:** Server-Upgrade auf 16 GB RAM (Hostinger 21,49€/Monat) ← GEWÄHLT
+- [ ] **Option B:** Taranis ohne AI-Bots betreiben — nur als News-RSS-Aggregator
 - [ ] **Option C:** Taranis auf separatem Server oder Cloud-Instanz
 
 ## Installation (2026-04-09)

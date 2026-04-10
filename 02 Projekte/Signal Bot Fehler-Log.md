@@ -48,3 +48,23 @@ Dokumentation aller behobenen und offenen Bugs im [[Signal Bot v3]].
 
 ### Separate API-Keys
 - **To-do:** Separaten Anthropic API-Key für den Bot erstellen (aktuell shared)
+
+---
+
+## Tradeprobleme / Verpasste Trades
+
+### AH-Exit fehlt — After-Hours Trading unvollständig
+- **Problem:** Bot kann AH kaufen (`LimitOrder` + `outsideRth=True` ✅), aber **nicht AH verkaufen** — Exit läuft über `MarketOrder` ohne `outsideRth=True` → wird erst bei Marktöffnung ausgeführt
+- **Konkrete Auswirkung:** ISPC 09.04.2026 — Jack Signal AH bei $0.13, Kurs lief auf $0.20 (+54%). Bot hätte kaufen können, aber SL/TP wären nicht AH ausführbar gewesen → unkontrolliertes Overnight-Risiko
+- **Fix:** Exit-Orders ebenfalls mit `outsideRth=True` als `LimitOrder` platzieren
+- **Risiko beachten:** AH-Liquidität ist dünn — Slippage bei SL-Ausführung möglich
+- **Priorität:** Medium — Wochenendprojekt 2026-04-12/13
+- **Datei:** `ibkr_client.py` ~Zeile 370 (MarketOrder Exit)
+
+### Verpasster Trade: ISPC 09.04.2026
+- **Signal:** Jack Sparo AH — *"I am watching ISPC move AH. If it gets my order at 0.16–0.1625 filled..."*
+- **Kurs bei Signal:** $0.13 → AH-Hoch $0.20 (+54%)
+- **Warum kein Trade:** Safety-Block auf Keyword `"watching"` (inzwischen entfernt ✅)
+- **Nachträgliche Bewertung:** Signal war mehrdeutig (Jackselbst unsicher, kein TP genannt, warnte vor Unberechenbarkeit) — Safety-Block war möglicherweise trotzdem korrekt
+- **Potenzieller Gewinn:** ~$1.077 bei $2k Position ($0.13 → $0.20, 15.384 Shares)
+- **Lehre:** Parser-Confidence allein reicht nicht — Signalqualität und AH-Ausführbarkeit separat prüfen

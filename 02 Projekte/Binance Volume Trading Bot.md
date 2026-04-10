@@ -33,8 +33,8 @@ Automatisierter Krypto-Handelsbot auf Binance der auf Basis von Volumen-Analyse 
 
 ### Infrastruktur
 - [ ] 1. Binance Account + API-Key (mit Trading-Rechten)
-- [ ] 2. Taranis AI installiert & konfiguriert (Docker)
-- [ ] 3. VPS-Ressourcen prüfen (~2-4GB RAM für Taranis)
+- [ ] 2. Taranis AI installiert & konfiguriert (Docker) ← wartet auf Server-Upgrade
+- [x] 3. VPS-Ressourcen: Server-Upgrade auf 16 GB RAM beschlossen (21,49€/Monat, Hostinger)
 
 ### Daten & Wissen
 - [x] 4. Trading-Bücher als Wissensbasis (10 PDFs in `/root/books/`)
