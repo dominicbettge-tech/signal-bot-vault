@@ -1,0 +1,135 @@
+message_id,channel_id,channel_name,message_date,new_signal_type,new_ticker,new_entry_low,new_entry_high,new_confidence,review_reason,raw_text,haiku_type,opus_verdict,opus_reason
+5546,-1002677824966,JACK SPARO PREMIUM,2026-03-30T18:49:58+00:00,exit,LAES,2.25,2.25,0.55,disagree_old=entry_new=exit,"LAES 2.25 filled for Me.
+Full transparency here!",EXIT_SELL,,
+5592,-1002677824966,JACK SPARO PREMIUM,2026-04-07T09:09:54+00:00,watchlist,,,,0.95,disagree_old=entry_new=watchlist,"Good early morning my incredible team here.
+I am taking risk :
+Opening small positions for day trades in :
+ADVB if it gets any order fill for me : 
+Below 7.10
+And above
+6.82
+In coming 45 minutes to 50 minutes. 
+SILO :
+0.48~0.51
+Also valid for 45 minutes .
+If nothing filled in this time mentioned. I will wait till after 
+07:00 AM US ET to check further for new trades and will share by then!",,,
+717,-1003775983137,JACK SPARO BIOTECH,2026-04-10T19:34:06+00:00,watchlist,OCGN,,,0.92,disagree_old=entry_new=watchlist,"OCGN
+below 1.70 will accumulate again. Order valid till 
+End of trading season tonight at 
+08:00 PM ET US",CONDITIONAL_WATCH,,
+5602,-1002677824966,JACK SPARO PREMIUM,2026-04-07T18:53:15+00:00,entry,GEVO,,,0.95,disagree_old=update_new=entry,"I got one order bought for GEVO at
+1.97 filled",ENTRY_ORDER,,
+5621,-1002677824966,JACK SPARO PREMIUM,2026-04-10T17:43:57+00:00,entry,FUSE,1.62,1.67,0.92,disagree_old=watchlist_new=entry,"I might place a small day trade order in FUSE
+1.62~1.67
+Valid for the next 10 minutes only!",ENTRY_ORDER_RANGE,APPROVE,"Klassisches Jack-Pattern: 'I might place' + konkreter Preis-Range + 'Valid for N minutes' = Entry. Ticker FUSE korrekt, Range 1.62~1.67 korrekt als entry_low/high, trade_type day_trade korrekt, expiry 10 minutes korrekt, kein SL im Text → null korrekt. Alles sauber."
+3462,-1002677824966,JACK SPARO PREMIUM,2025-10-13T14:42:53+00:00,commentary,OCGN,,,0.85,haiku_ambiguous,OCGN,AMBIGUOUS,,
+3936,-1002677824966,JACK SPARO PREMIUM,2025-12-05T18:12:26+00:00,commentary,,,,0.7,haiku_ambiguous,I got few at 18.88,AMBIGUOUS,,
+4385,-1002677824966,JACK SPARO PREMIUM,2026-01-06T13:46:53+00:00,commentary,ALMS,,,0.75,haiku_ambiguous,ALMS 18,AMBIGUOUS,,
+4421,-1002677824966,JACK SPARO PREMIUM,2026-01-08T00:19:19+00:00,commentary,,,,0.85,haiku_ambiguous,"IMG
+The ticker name",AMBIGUOUS,,
+4616,-1002677824966,JACK SPARO PREMIUM,2026-01-16T17:20:24+00:00,commentary,,,,0.85,haiku_ambiguous,I placed another one at 1.22,AMBIGUOUS,,
+4692,-1002677824966,JACK SPARO PREMIUM,2026-01-22T13:47:02+00:00,commentary,,,,0.85,haiku_ambiguous,5.45,AMBIGUOUS,,
+4852,-1002677824966,JACK SPARO PREMIUM,2026-01-29T21:42:54+00:00,commentary,,,,0.85,haiku_ambiguous,"I placed small order to risk at
+1.18 if fills in the next 7 minutes will trade it then if not will pass . The stock doesn’t have much info about the volume to risk",AMBIGUOUS,,
+4889,-1002677824966,JACK SPARO PREMIUM,2026-01-30T21:05:02+00:00,commentary,,,,0.75,haiku_ambiguous,"Edit the order to
+0.74 risky one so far but small amount to risk",AMBIGUOUS,,
+5087,-1002677824966,JACK SPARO PREMIUM,2026-02-11T15:09:46+00:00,commentary,,,,0.85,haiku_ambiguous,RENX,AMBIGUOUS,,
+5268,-1002677824966,JACK SPARO PREMIUM,2026-02-27T16:22:20+00:00,commentary,,,,0.85,haiku_ambiguous,"Entry around 0.62
+Two exits around 0.66
+Final exit 0.71",AMBIGUOUS,,
+5418,-1002677824966,JACK SPARO PREMIUM,2026-03-16T16:16:26+00:00,commentary,WNW,,,0.85,haiku_ambiguous,"WNW
+12",AMBIGUOUS,,
+4711,-1002677824966,JACK SPARO PREMIUM,2026-01-23T12:56:37+00:00,entry,,15.7,15.7,0.2,low_conf_entry=0.20,"MOVE 
+placed an order at 
+15.70
+For the next 7 minutes 
+Again I am not in hurry. I don’t want to ruin my week fomo trading any stock.
+If you want to take any risk you always can but try to secure profit.",ENTRY_ORDER,APPROVE,opus error: Expecting value: line 1 column 1 (char 0)
+5494,-1002677824966,JACK SPARO PREMIUM,2026-03-24T15:11:36+00:00,entry,,0.52,0.52,0.35,low_conf_entry=0.35,"Two small orders filled at 
+0.52 
+Placed a SL
+at 0.43 will hold if it stays above 0.46",ENTRY_ORDER,APPROVE,"Extraktion ist korrekt: Fills bei 0.52 bestätigt (Entry), SL bei 0.43 explizit genannt. Ticker fehlt tatsächlich weder in dieser Nachricht noch im Parent-Text — ticker=null ist korrekt. Confidence von 0.35 ist angemessen niedrig wegen fehlendem Ticker. Das Signal wird vermutlich ohnehin verworfen werden wegen null-Ticker, aber die Extraktion selbst ist akkurat."
+3574,-1002677824966,JACK SPARO PREMIUM,2025-10-22T13:36:26+00:00,commentary,OMEX,,,0.3,opus_reject_after_sonnet_entry,"Added little more OMEX at 2.49 
+Might wait to see where it could settle again yesterday I opened only a small position. Increased little more today holding still",ENTRY_ORDER,REJECT,"Dies ist kein neuer Entry, sondern ein Add-on zu einer bestehenden Position ('Added little more', 'yesterday I opened only a small position. Increased little more today holding still'). Es gibt keinen 'placed' Marker, kein TIF, keine Ablaufzeit. Es ist ein Status-Update über eine bereits laufende Position, kein actionable Entry-Signal."
+3701,-1002677824966,JACK SPARO PREMIUM,2025-11-04T21:39:54+00:00,commentary,LAES,,,0.3,opus_reject_after_sonnet_entry,"LAES 
+5.50 to 5.25 might adding zone for swing . Will keep posted",ENTRY_ORDER_RANGE,REJECT,"Dies ist kein Entry. 'might adding zone' ist konditional/prospektiv – er beschreibt eine potenzielle Zone, kein platziertes Order. Kein 'placed', kein TIF, kein Ablaufdatum. 'Will keep posted' bestätigt, dass dies eine Watch/Intent ist, keine ausgeführte Order."
+3714,-1002677824966,JACK SPARO PREMIUM,2025-11-07T15:46:30+00:00,commentary,ELDN,,,0.3,opus_reject_after_sonnet_entry,"ELDN
+added little more at 1.57",ENTRY_ORDER,REJECT,"""added little more at 1.57"" ist ein Add-on zu einer bestehenden Position, kein neuer Entry. Es gibt keinen 'placed'-Marker, kein TIF, kein Ablaufdatum. Dies ist ein Status-Update zu einem bereits laufenden Trade, kein eigenständiges Entry-Signal."
+3930,-1002677824966,JACK SPARO PREMIUM,2025-12-05T15:35:48+00:00,commentary,GURE,,,0.3,opus_reject_after_sonnet_entry,GURE at 11.60,ENTRY_ORDER,REJECT,"Nur 'GURE at 11.60' — kein 'placed', kein TIF, kein Ablaufdatum, kein Indikator für eine tatsächlich platzierte Order. Das ist bestenfalls eine Beobachtung/Watch, kein Entry."
+4234,-1002677824966,JACK SPARO PREMIUM,2025-12-23T20:53:54+00:00,commentary,PCLA,,,0.3,opus_reject_after_sonnet_entry,"PCLA 
+more than 700 M volume
+Team I may put an order after hours at 
+0.2875
+Counting a possible 27% drop AH then a possible 16% to 18% reverse
+But if they announce any offering auto cancel.",ENTRY_ORDER_AH,REJECT,"This is conditional/speculative, not a placed order. 'I may put an order' is genuine uncertainty here — unlike 'I might place' + 'valid for N minutes' which signals an actual entry. There is no TIF, no 'placed' confirmation, no validity window. The language 'Counting a possible 27% drop... possible 16% to 18% reverse' is speculative analysis, and the offering caveat ('if they announce any offering auto cancel') adds further conditionality. Additionally, the side is unclear — 'counting a possible 27% drop then a reverse' could mean he wants to buy at 0.2875 after the drop to catch the reverse (long), not short. This is a watch/intent, not an entry."
+4267,-1002677824966,JACK SPARO PREMIUM,2025-12-24T19:48:05+00:00,commentary,AQST,,,0.3,opus_reject_after_sonnet_entry,"A stock to focus on this coming Friday for a possible January price movement.
+AQST!
+I will start adding between 
+5.40 up to 5.70
+Possible exit I am aiming for a possible 30% prior to the PDUFA  date ( Jan 31st so far expected not confirmed).",ENTRY_ORDER_RANGE,REJECT,"This is NOT a placed order. The language is forward-looking and conditional: 'A stock to focus on this coming Friday for a possible January price movement', 'I will start adding between 5.40 up to 5.70', 'Possible exit I am aiming for a possible 30%'. There is no 'placed' marker, no TIF, no indication an order has been executed. This is a watchlist/plan announcement ('I will start adding' = future intent, not a placed order). The image is an informational catalyst summary, not a broker screenshot. This should be COMMENTARY."
+4283,-1002677824966,JACK SPARO PREMIUM,2025-12-26T20:00:42+00:00,commentary,SOPA,,,0.3,opus_reject_after_sonnet_entry,"New plan
+1.85 possible entry 
+Valid for 5 minutes only so far",ENTRY_ORDER,REJECT,"The phrase 'possible entry' indicates conditionality/uncertainty — this is NOT the same as 'I placed an order at X'. Jack's typical entry phrasing is 'I placed' or 'I might place' + TIF. Here 'possible entry' reads more like a watch/plan rather than a confirmed placed order. The word 'possible' is a conditional qualifier that differs from Jack's usual 'I might place' pattern (which implies the order is already placed despite the soft language). 'New plan' + 'possible entry' together suggest this is a revised idea/watch, not a confirmed fill or placed order. Downgrade to COMMENTARY."
+4346,-1002677824966,JACK SPARO PREMIUM,2026-01-05T04:02:34+00:00,commentary,ACHV,,,0.3,opus_reject_after_sonnet_entry,"Good evening my great team here.
+I hope you all enjoyed your weekend.
+I am going to pay attention more to ACHV
+The stock entered a bullish zone for both 30 / 90 days chart.
+There is a potential good swing in it.
+The entry between:
+4.10 up to 4.60
+With a possible 3.80 as SL for 90 days .
+I am expecting 
+5.50 up to 6.00 in the short term ( 10 to 14 days )
+It has also  a potential bigger move within the next 90 days.",ENTRY_ORDER_RANGE,REJECT,"This is a watchlist/analysis, NOT a placed order. Key phrases: 'I am going to pay attention more to ACHV', 'There is a potential good swing in it', 'I am expecting'. No 'placed' marker, no TIF, no order confirmation. The entry range and SL are presented as potential/conditional levels for future consideration, not as an executed or pending order. The chart is a technical analysis screenshot (StockMaster), not a broker order screenshot."
+4392,-1002677824966,JACK SPARO PREMIUM,2026-01-06T14:14:27+00:00,commentary,ALMS,,,0.3,opus_reject_after_sonnet_entry,ALMS 21.35 team 😁,ENTRY_ORDER,REJECT,"Kein 'placed' Marker, kein TIF, keine Expiry. 'ALMS 21.35 team 😁' ist eher eine Statusmeldung/Celebration (z.B. Kurs hat 21.35 erreicht) oder ein casual Hinweis, aber kein klarer Entry. Kein Verb das eine Order-Platzierung signalisiert. Harte Reject-Regel: kein 'placed' und kein TIF."
+4408,-1002677824966,JACK SPARO PREMIUM,2026-01-07T14:43:00+00:00,commentary,IMRX,,,0.3,opus_reject_after_sonnet_entry,IMRX 7.50,ENTRY_ORDER,REJECT,"Nur 'IMRX 7.50' ohne jeglichen Entry-Marker (kein 'placed', kein TIF, kein 'valid for', kein Alert-Emoji). Das ist eine Watch/Notiz/Preisniveau-Nennung, kein platzierter Order. Sonnet's eigene niedrige Confidence (0.72) bestätigt die Unsicherheit. Harter Reject: kein 'placed' Marker, kein TIF."
+4410,-1002677824966,JACK SPARO PREMIUM,2026-01-07T15:02:21+00:00,commentary,IMRX,,,0.3,opus_reject_after_sonnet_entry,"IMRX 
+7.89 ✅✅!",ENTRY_ORDER,REJECT,"Dies ist kein Entry. Es gibt keinen 'placed'-Marker, kein TIF/Ablaufdatum, und keine Order-Indikation. 'IMRX 7.89 ✅✅!' ist eine Bestätigung/Status-Update (z.B. Kursziel erreicht, TP getroffen) - die Checkmarks deuten auf Erfolg/Bestätigung hin, nicht auf eine neue Order-Platzierung. Kein Entry-Signal."
+4431,-1002677824966,JACK SPARO PREMIUM,2026-01-08T18:51:19+00:00,commentary,ACRV,,,0.3,opus_reject_after_sonnet_entry,Got one order at 1.98 holding still,ENTRY_ORDER,REJECT,"Dies ist ein Status-Update ('holding still'), kein neuer Entry. Jack berichtet, dass er bereits eine Position bei 1.98 hat und sie noch hält. Es gibt keinen 'placed'-Marker, kein TIF, und keine Aufforderung zum Einstieg. Der eigentliche Entry war die Parent-Nachricht ('I might start a small position around 1.90'). Diese Nachricht ist ein Rückblick/Status auf eine bereits bestehende Position."
+4452,-1002677824966,JACK SPARO PREMIUM,2026-01-09T20:37:34+00:00,commentary,ACRV,,,0.3,opus_reject_after_sonnet_entry,"ACRV for full transparency 
+Added another order at 1.84 
+Holding strong …",ENTRY_ORDER,REJECT,"Dies ist kein neuer Entry-Alert, sondern ein Update zu einer bestehenden Position ('Added another order' = Nachkauf/Averaging, 'Holding strong' = Status-Update). Es fehlt jeglicher TIF/Expiry-Marker und kein 'placed'-Indikator für einen neuen Trade. 'For full transparency' deutet auf einen informativen Nachtrag hin, nicht auf ein handelbares Signal."
+4509,-1002677824966,JACK SPARO PREMIUM,2026-01-13T19:29:45+00:00,commentary,XAIR,,,0.3,opus_reject_after_sonnet_entry,"XAIR 
+around 2.08 to 2.13 if you added pay attention to that.",ENTRY_ORDER_RANGE,REJECT,"Kein Entry. 'if you added pay attention to that' ist eine Statusmeldung/Hinweis für Leute, die bereits eine Position haben. Kein 'placed', kein TIF, kein Ablaufdatum. Es ist weder ein neuer Order noch ein klarer Entry-Aufruf, sondern ein Kommentar zu einem bestehenden Trade. Konditional ('if you added') + keine Action-Marker = Commentary."
+4647,-1002677824966,JACK SPARO PREMIUM,2026-01-20T14:21:55+00:00,commentary,IVF,,,0.3,opus_reject_after_sonnet_entry,IVF 3.55 ✅,ENTRY_ORDER,REJECT,"Das ✅ nach einem Ticker + Preis ist typisch für eine Bestätigung/Status-Update (z.B. 'Target erreicht' oder 'Trade geschlossen'), nicht für einen neuen Entry. Es fehlen jegliche Entry-Marker: kein 'placed', kein TIF, kein 'valid for X minutes', kein 'order'. Dies ist kein placed order, sondern ein Rückblick/Status-Update."
+4682,-1002677824966,JACK SPARO PREMIUM,2026-01-22T13:07:57+00:00,commentary,,,,0.3,opus_reject_after_sonnet_entry,"Pre market Day trades:
+IOTR
+placed me an order :
+6.95
+Valid for 15 minutes only!
+SXTP
+4.26
+Valid for 10 minutes",ENTRY_ORDER,REJECT,"Multi-Ticker-Nachricht mit zwei separaten Entries (IOTR @ 6.95 und SXTP @ 4.26). Beide sind echte Entries mit 'placed me an order' und TIF, aber das System kann nur einen Ticker pro Signal verarbeiten. Ohne Kontext zur Priorisierung eines einzelnen Tickers muss dies rejected werden. Sonnet hat korrekt ticker=null gesetzt, was effektiv ein Reject ist."
+4695,-1002677824966,JACK SPARO PREMIUM,2026-01-22T13:53:45+00:00,commentary,SXTP,,,0.3,opus_reject_after_sonnet_entry,"Team
+SXTP 5:70",ENTRY_ORDER,REJECT,"Kein 'placed' Marker, kein TIF, kein Ablaufdatum. 'Team SXTP 5:70' ist extrem knapp und enthält keinen klaren Entry-Indikator. Könnte ein Watch, ein Status-Update oder sogar eine Shorthand-Notiz sein. Ohne expliziten Hinweis auf eine platzierte Order (placed, order, valid for, day trade alert etc.) ist dies kein bestätigter Entry."
+4730,-1002677824966,JACK SPARO PREMIUM,2026-01-26T12:14:00+00:00,commentary,,,,0.3,opus_reject_after_sonnet_entry,Placed me another order at 4.75 will see if anything will fill in the next 15 minutes. Remember you always can adjust your entry or exit . I only share ideas here not a copy paste trades.,ENTRY_ORDER,REJECT,"Kein Ticker identifizierbar – weder im Text noch im Kontext (NO_CONTEXT). Ohne Ticker ist kein valides Signal möglich. Sonnet hat dies korrekt erkannt (confidence 0.2), aber trotzdem als Entry extrahiert statt abzulehnen. REJECT → COMMENTARY."
+4907,-1002677824966,JACK SPARO PREMIUM,2026-02-02T11:40:15+00:00,commentary,DKI,,,0.3,opus_reject_after_sonnet_entry,"DKI
+another point of interest in the pre market season 
+I am going to risk and get some around 0.62~0.65
+To risk them for a possible 20% in the coming  hour or so",ENTRY_ORDER_RANGE,REJECT,"Dies ist kein platzierter Order-Entry. 'I am going to risk and get some around 0.62~0.65' ist eine Absichtserklärung/Intent ('going to'), kein 'placed'-Marker. Es fehlt jeglicher TIF/Validity-Marker ('Valid for N minutes') und kein 'placed' oder äquivalenter Ausdruck. 'Going to' + 'to risk them for a possible 20%' ist konditional/prospektiv, kein bestätigter Entry. Ohne 'placed', ohne TIF → kein Entry."
+4949,-1002677824966,JACK SPARO PREMIUM,2026-02-03T16:15:40+00:00,commentary,ATOS,,,0.3,opus_reject_after_sonnet_entry,"Added two orders below 5
+Shared the plan yesterday!",ENTRY_ORDER,REJECT,"Kein klarer Entry mit spezifischem Preis. 'Added two orders below 5' ist vage - kein konkreter Limit-Preis, kein TIF, kein 'Valid for N minutes'. 'Below 5' ist eine ungefähre Zone, keine präzise Entry-Angabe. Zudem fehlt jegliche Zeitangabe/Expiry. 'Shared the plan yesterday' verweist auf einen früheren Plan, ist kein aktueller Trade-Alert. Das ist eher ein Status-Update über bereits platzierte Orders als ein actionable Entry-Signal."
+4982,-1002677824966,JACK SPARO PREMIUM,2026-02-05T15:32:53+00:00,commentary,GUTS,,,0.3,opus_reject_after_sonnet_entry,"GUTS
+One more order at 0.385 if it gets there then it will be in the hold as soon as it stays above 
+0.35 and no Reverse split news!",ENTRY_ORDER,REJECT,"This is conditional, not a placed order. 'if it gets there' makes the entire entry contingent on price reaching 0.385 — it's a limit order announcement with conditions ('if it gets there', 'as soon as it stays above 0.35 and no Reverse split news'). There's no 'placed' marker, no TIF/expiry, and the multiple conditions make this a conditional/watch rather than a confirmed entry."
+5096,-1002677824966,JACK SPARO PREMIUM,2026-02-11T20:35:18+00:00,commentary,,,,0.3,opus_reject_after_sonnet_entry,"I placed me an order at 
+2.15 see if any will be filled in the next 20 minutes.",ENTRY_ORDER_NO_SL,REJECT,"Kein Ticker identifizierbar – weder im Text noch über Kontext. Ohne Ticker ist das Signal nicht actionable. Sonnet hat korrekt ticker=null gesetzt mit confidence 0.2, was bereits ein Reject-Indikator ist. Entry ohne Ticker → REJECT."
+5275,-1002677824966,JACK SPARO PREMIUM,2026-03-02T11:51:16+00:00,commentary,TPET,,,0.3,opus_reject_after_sonnet_entry,Filled at exact time 6:43 AM US ET average cost 0.76,ENTRY_ORDER,REJECT,"Dies ist eine Fill-Bestätigung ('Filled at... average cost 0.76'), kein neuer Entry. Der eigentliche Entry war die Parent-Nachricht mit 'Placed an order at 0.71~0.75'. Diese Nachricht ist ein Status-Update/Kommentar zum bereits platzierten Trade, nicht ein eigenständiger Entry."
+401,-1003775983137,JACK SPARO BIOTECH,2026-03-02T21:44:56+00:00,commentary,,,,0.3,opus_reject_after_sonnet_entry,4.36 ~4.60 very attractive entry for swing traders!,ENTRY_ORDER_RANGE,REJECT,"Kein Ticker genannt, kein 'placed' Marker, kein TIF. Dies ist eine Beobachtung/Empfehlung für Swing Trader ('very attractive entry'), kein platzierter Order. Ohne Ticker und ohne Action-Marker ist dies Commentary."
+5331,-1002677824966,JACK SPARO PREMIUM,2026-03-05T11:51:48+00:00,commentary,MOBX,,,0.3,opus_reject_after_sonnet_entry,I reduced my entry to 0.54~0.61 again not a big order yet . Bearish sentiment into it and it might stay low for sometime.,ENTRY_ORDER_RANGE,REJECT,"Dies ist kein neuer Entry/placed order. 'I reduced my entry to 0.54~0.61' beschreibt eine Anpassung seiner bestehenden Position (er hat bereits Shares bei 0.40 avg laut Parent). 'again not a big order yet' und 'Bearish sentiment... it might stay low for sometime' zeigen Unsicherheit/Abwarten. Kein 'placed', kein TIF, kein Ablaufdatum. Das ist ein Status-Update zu einer bestehenden Position, kein actionable Entry-Signal."
+5332,-1002677824966,JACK SPARO PREMIUM,2026-03-05T12:09:33+00:00,commentary,,,,0.3,opus_reject_after_sonnet_entry,One order filled at 0.615 even 2 other orders still open,ENTRY_ORDER,REJECT,"Kein Ticker genannt – weder in der aktuellen Nachricht noch im Parent-Context. Ohne Ticker ist das Signal nicht actionable. Außerdem ist dies eher ein Status-Update ('order filled', 'orders still open') zu einem bereits zuvor platzierten Entry, kein neuer Entry selbst. Sonnet hat das mit 0.35 Confidence korrekt als unsicher eingestuft."
+441,-1003775983137,JACK SPARO BIOTECH,2026-03-05T15:20:06+00:00,commentary,OCGN,,,0.3,opus_reject_after_sonnet_entry,"OCGN
+1.66~1.48 my loading zone if it gets there today or tomorrow",ENTRY_ORDER_RANGE,REJECT,"Dies ist eine Watch/Intent, kein Entry. 'my loading zone if it gets there' ist konditional — er hat keinen Order platziert, sondern beschreibt eine Zone, die er kaufen WÜRDE, falls der Preis dorthin fällt. Kein 'placed', kein TIF, kein Ablaufdatum. 'if it gets there' ist ein klarer Konditional-Marker → harter Reject."
+5409,-1002677824966,JACK SPARO PREMIUM,2026-03-16T12:35:50+00:00,commentary,LAES,,,0.3,opus_reject_after_sonnet_entry,"LAES is dropping pre market 
+I might add some for intra day trade and over night swing if it gets my order at
+3.18~3.32 filled
+Below 3.00 will be a bearish zone.",ENTRY_ORDER_RANGE,REJECT,"This is conditional/intent, NOT a placed order. 'I might add some... if it gets my order filled' is explicitly conditional — he's saying he MIGHT do something IF the price reaches his level. There's no 'placed', no TIF, no 'valid for N minutes'. The phrase 'I might' here is genuinely conditional (paired with 'if it gets filled'), unlike Jack's 'I might place... valid for X minutes' pattern which includes a TIF marker. This is a watch/plan, not an executed entry."
+558,-1003775983137,JACK SPARO BIOTECH,2026-03-18T15:38:43+00:00,commentary,ABOS,,,0.3,opus_reject_after_sonnet_entry,"I am evaluating a plan for ABOS to add between 
+2.85~2.90",ENTRY_ORDER_RANGE,REJECT,"""I am evaluating a plan"" ist klar konditional/intentional — kein placed order, kein TIF, kein ""placed"" Marker. Dies ist eine Watch/Planung, kein Entry. Harte Reject-Regel: Konditional ohne Action-Marker."
+626,-1003775983137,JACK SPARO BIOTECH,2026-03-25T13:44:16+00:00,commentary,OCGN,,,0.3,opus_reject_after_sonnet_entry,"OCGN
+2.10",ENTRY_ORDER,REJECT,"Nur Ticker + Preis ohne jeglichen Action-Marker ('placed', 'order', 'day trade alert', TIF, etc.). Kein 'Valid for N minutes', kein 'placed', kein Screenshot. Das ist eher eine Watch/Notiz als ein bestätigter Entry. Fällt unter 'Kein placed Marker'."
+656,-1003775983137,JACK SPARO BIOTECH,2026-03-27T14:08:33+00:00,commentary,RCKT,,,0.3,opus_reject_after_sonnet_entry,"RCKT 
+One last order for today will place at 3.50 if it fills good if not will wait to see what to do next week.
+Again this is a big lesson why we must take profit prior to any catalysts .
+Same profit you make you can risk !",ENTRY_ORDER,REJECT,"This is conditional/uncertain - 'will place at 3.50 if it fills good if not will wait to see what to do next week.' He says he WILL place (future intent), not that he HAS placed. There's no 'placed' marker, no TIF/expiry, and the conditional 'if it fills good if not will wait' shows uncertainty. This is more of a plan/intent than a confirmed entry. No broker screenshot to confirm. Additionally the lesson/commentary about taking profit suggests this is more advisory than actionable."
