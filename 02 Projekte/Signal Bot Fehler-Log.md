@@ -105,6 +105,20 @@ Dokumentation aller behobenen und offenen Bugs im [[Signal Bot v3]].
 
 ---
 
+## Intraday-Download (2026-04-13 abgeschlossen)
+
+- **49/51 Ticker** mit 1min-Bars erfolgreich via IBKR, 2.617.610 Bars, `data/price_data_1min.db`
+- **CMBM + LVRO bei IBKR nicht verfügbar** (beide vermutlich delisted)
+- **Notlösung 2026-04-14:** Daily-Bars via yfinance gezogen, Tabelle `bars_daily` in selber DB
+  - CMBM 65 Bars, LVRO 65 Bars (jeweils 2025-10-14 bis 2026-01-15)
+  - Entdeckung: beide Ticker waren an Jack-Tagen Monster-Moves (CMBM 29.10.: +165% Range, LVRO 02.01.: +184% Range)
+- **TODO:** 1min-Bars für CMBM/LVRO inkl. PM/AH nachziehen — Quellen:
+  - Polygon.io Starter ($29/Mo, hat delisted + OTC + PM/AH) ⭐
+  - Alpaca Free (unsicher bei delisted, nur IEX)
+- **Einschränkung Daily-Only:** TSL-Simulation für diese Ticker nur grob möglich (keine Intraday-Pfade)
+
+---
+
 ## Tradeprobleme / Verpasste Trades
 
 ### AH-Exit fehlt — After-Hours Trading unvollständig

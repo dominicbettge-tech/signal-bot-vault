@@ -315,10 +315,145 @@ Aus Online-Research (QuantConnect, QuantifiedStrategies, LuxAlgo, Bookmap) und e
 | **Regime_Filter** | SPY > 20d MA / VIX < X | Penny Momentum stirbt in Risk-Off/Choppy. Macro-Gate reduziert Drawdown massiv |
 | **Hard_Stop_Max_Loss** | 10 / 15 / 20% vom Entry | GAP-PROTECTION: unabhängig vom TSL, absolute Verlustgrenze pro Trade. Wenn Halt + Gap-Down |
 | **Cool_Down_Minutes** | 0 / 30 / 60 / 120 nach Loss auf selben Ticker | Zweiter Trade nach Stop-Out auf demselben Ticker = kompoundierende Verluste |
+| **Order_Price_Offset_Pct** | 0 / +0.5 / +1 / +2 / +3 / +5% über Jacks Limit | Jack's Preis oft nicht mehr erreicht (RADX #3: Order 5.30, RTH-Low 5.60 → nie gefüllt). Offset nach oben = mehr Fills, aber schlechterer Entry |
 
 ### Aktualisierte Gesamtzahl Parameter: ~30
 
 **Achtung:** 30 Parameter × multiple Werte = Milliarden Combos. Random Sampling (10k-50k) + Top 100 Walk-Forward bleibt der Ansatz. Alternativ: Bayesian Optimization statt Grid/Random.
+
+---
+
+## 7c. SIMULATION: Swing-Entries bedingt ausschließen
+
+Aus LAES-Review msg 5409 (2026-04-14).
+
+**Hypothese:** Swings sind strukturell ungünstig für den Bot:
+- Besetzen einen der 5 Slots tagelang/wochenlang
+- TSL 3% zu eng (Penny-Range bei Multi-Day-Holds)
+- Jack's Edge ist Domain-Expertise die der Bot nicht hat
+- Konkret: LAES 2026-03-16 Entry 3.30 → 2026-04-10 bei 2.10 = **-36% nach einem Monat**
+
+**Varianten im Sweep:**
+| Variante | Filter |
+|---|---|
+| A | Alle Swings traden (Baseline) |
+| B | Keine Swings traden |
+| C | Swings nur wenn Ticker-Cluster = C1 Stable (aus Klassifikator) |
+| D | Swings nur bei Bankroll-Auslastung < 50% (Slot-Budget) |
+| E | Swings nur mit Catalyst (Earnings/FDA) |
+| F | Swings nur bei SPY > 20d MA (Regime-Filter) |
+
+**Messung:** PnL / Sharpe / Max-DD / Win-Rate / Slot-Utilization-Effizienz (PnL pro Slot-Stunde)
+
+**Entscheidungskriterium:** Wenn Variante X den Bot bei gleichem Risiko über mehrere Zeiträume besser macht → als Config-Flag `SWING_FILTER_MODE` einbauen.
+
+---
+
+## 7d. SIMULATION: Order-Price-Offset (Fill-Rate optimieren)
+
+Aus RADX-Review msg 4145 (2026-04-14).
+
+**Problem:** Jack sagt "order at 5.30" — RTH-Low des Tages war 5.60. Bot-Limit-Order @ 5.30 wurde nie gefüllt. Ähnlich oft bei anderen Signalen. Parser klassifiziert korrekt als `entry`, aber ohne Offset-Logik baut der Bot in vielen Fällen **keine Position auf** trotz "ausgeführtem Signal".
+
+**Hypothese:** Jack's Preis ist eher ein Wunsch-Level als ein Marktpreis. Wenn wir **X% über** Jacks Limit ordern, erwischen wir mehr Trades — zum Preis von schlechterem Entry.
+
+**Varianten im Sweep (Order_Price_Offset_Pct):**
+| Variante | Limit-Preis | Effekt |
+|---|---|---|
+| A | Jacks Preis exakt (Baseline) | Niedrige Fill-Rate, beste Entry-Preise |
+| B | Jacks Preis + 0.5% | Mehr Fills, minimal schlechterer Entry |
+| C | Jacks Preis + 1% | Moderater Trade-off |
+| D | Jacks Preis + 2% | Aggressiver |
+| E | Jacks Preis + 3% | Sehr aggressiv |
+| F | Jacks Preis + 5% | Market-Order-ähnlich |
+| G | Market-Order bei Signal (IOC) | Maximal-Aggressiv, keine Limit-Kontrolle |
+| H | Staggered: 50% bei Jack-Preis, 50% bei +1% | Hybrid |
+
+**Messung:**
+- Fill-Rate (% der Signale die eine Position auslösen)
+- Avg Entry-Slippage vs. Jacks Preis (Basispunkte)
+- PnL pro erfolgreichem Trade
+- Gesamt-PnL (Fill-Rate × Durchschnitts-PnL)
+- Win-Rate vs. Variante A
+
+**Warum das wichtig ist:**
+- 282 Entry-Signale mit konkretem Preis im Korpus
+- Bei vielen dieser Signale haben wir aktuell vermutlich **keinen Fill** → zählt in der Simulation fälschlich als "ausgeführter Trade mit PnL=0"
+- Mit Polygon-Intraday-Daten (1-min OHLC) können wir **pro Signal prüfen:** "Bei Offset X% wäre die Order gefüllt worden, bei Offset Y% nicht"
+- Finden welcher Offset die beste Risiko-adjustierte Rendite bringt
+
+**Entscheidung:** Offset-Range im Sweep ergänzen, Gewinner als `ORDER_OFFSET_PCT` in der Live-Config verankern.
+
+**Verbunden mit:**
+- [[../Signal Bot]] — staggered_entry Memo (Bot soll mehrere Orders leicht über Jack-Preis platzieren)
+- Slippage-Modell (Section 2) — Offset + Spread zusammen modellieren
+
+---
+
+## 7e. SAFETY-GATES für Conditional-Setup-Executor (NCPL #7 → Projekt)
+
+Aus NCPL-Review 2026-04-14 (msg 4008) abgeleitet. User-Direktive: *"muss für zukünftige Trades passend und möglichst sicher sein"*. Quell-Memo: `project_conditional_setup_executor.md`.
+
+**Kontext:** Jack postet "If X failed to break Y ... drop to Z1-Z2 ... enter for quick day trade in T minutes"-Setups. Bot soll das automatisch triggern — aber nur mit belastbaren Safety-Gates, damit die Regel auch auf unbekannten zukünftigen Signalen sicher bleibt.
+
+**Edge (bewiesen NCPL):** Entry-Range +2% Offset füllt wo Jack knapp verfehlt → +53% auf NCPL-Peak verfügbar. Aber ein einziger Fall = noch kein Beweis für Robustheit.
+
+### 8 Hard Safety-Gates (als Testcenter-Sweep-Variablen)
+
+| # | Gate | Default | Sweep-Range | Zweck |
+|---|---|---|---|---|
+| 1 | `Cond_Max_Position_Size` | 10% Bankroll | {5%, 10%, 15%, 20%} | Conditional ist spekulativer als Hard-Order → halbierte Size |
+| 2 | `Cond_Max_DD_Cap` | -10% | {-8%, -10%, -12%, -15%} | Enger Stop bei Hedge-Sprache |
+| 3 | `Cond_SoftScore_Veto` | ≥ 5 | {3, 5, 7, off} | Falling-Knife blockieren |
+| 4 | `Cond_Resistance_Reject_Required` | true | {true, false} | Phantom-Trigger vermeiden |
+| 5 | `Cond_Offset_Cap` | +3% max | {1%, 2%, 3%, 5%} | Risk-Reward bewahren |
+| 6 | `Cond_TTL_Buffer` | +1 min | {0, 1, 2, 3 min} | Stale Setups killen |
+| 7 | `Cond_Market_Regime_Gate` | VIX>25 OR SPY<-1% → halbieren | {on, off, halbieren, skippen} | Risk-Off-Filter |
+| 8 | `Cond_Time_of_Day` | 09:30-15:30 ET | {RTH, RTH+PM, nur 09:30-14:00, ...} | Liquidität + Spread |
+
+### Re-Validierungs-Regel (Drift-Schutz)
+- Alle **50 getriggerte Setups** → Hit-Rate automatisch neu berechnen
+- Wenn Hit-Rate < 50% → Regel **pausieren**, Re-Analyse
+- Wenn Hit-Rate > 65% über 3 Quartale → Offset-Kalibrierung
+
+### Deployment-Gates (Pflicht vor Live)
+1. ≥ 5 Template-Matches im Review-Korpus (Stand 2026-04-14: 1 — NCPL #7)
+2. Walk-Forward-Test: Train Q3/Q4 2025, Test Q1 2026 → Hit-Rate-Degradation ≤ 5pp
+3. Offset-Variante ≥ 10% PnL-Delta über Jack-Baseline (Fill-Rate × Win-Rate × Avg-PnL)
+4. **Dry-Run 30 Paper-Trades** in Live-Market-Daten: Hit-Rate paper ≈ Hit-Rate backtest
+5. Initial Live-Size = 5% (statt default 10%), Ramp-up auf 10% erst nach 50 realen Trades
+
+### Wachstumspfad für die Regel
+Die Regel soll mit jedem neuen Template-Match nach-kalibriert werden:
+- **Jede neue Session** → weitere Fälle in `Conditional Setup Fallsammlung.md` einfügen
+- **Phrasen-Matrix** erweitert sich organisch
+- **Ab 5 Fälle** → erste statistische Validierung (Binomial-CI)
+- **Ab 10 Fälle** → Safety-Gate-Defaults empirisch neu setzen
+- **Ab 20 Fälle** → Live-Deploy-Gate 3 erreicht, Offset final kalibriert
+- **Laufend:** Drift-Check nach je 50 Live-Trigger (Re-Validierungs-Regel oben)
+
+**Verbunden mit:**
+- `project_conditional_setup_executor.md` — Detail-Memo, Template, Safety-Gates
+- `[[Conditional Setup Fallsammlung]]` — laufende Case-Sammlung
+- Section 7d oben (Order-Price-Offset) — selbe Offset-Mechanik, andere Auslöser
+
+---
+
+## 7b. SIMULATION: Conditional Watchlist Auto-Entry
+
+Aus LAES-Review 2026-04-14 identifiziert — siehe [[Conditional Watchlist Auto-Entry]].
+
+**Hypothese:** Jack kündigt Setups mit Preis-Levels vorab an (z.B. "if gets below 3.58 and stays above 3.36 → double bottom, 8-12% move"). Ein Bot der diese Bedingungen überwacht und bei Erfüllung autonom einsteigt würde zusätzliche Trades fangen.
+
+**Testcenter muss simulieren können:**
+- Extraktion aller historischen Conditional-Setups aus geparstem Signal-Korpus
+- Für jedes Setup: wurde Bedingung innerhalb Expiry erfüllt (Intraday-Check)?
+- Hit-Rate: % der Setups die triggern
+- Jack-Miss-Rate: % der triggered Setups wo Jack selbst NICHT einsteigt (False-Positive-Marker)
+- Simulierter PnL mit eigener SL/TP-Regel (z.B. SL 3% unter Support-Zone, TP bei Target-Range-Mitte)
+- Vergleich: Baseline (nur explizite Entries) vs. Baseline + Conditional Watchlist
+
+**Entscheidung:** Nur implementieren wenn positiver EV nach Gebühren + Slippage.
 
 ---
 

@@ -83,6 +83,12 @@ Nur wenn Bot bereits in Position ist. Sonst = neues Entry.
 - "might start adding" (3892)
 - "might average at X" (3555 OMER)
 
+#### Exit/Partial-Phrasen (Signal-Typ `exit`)
+
+- "secured some profit" (4207 LAES — partial sell, war fälschlich `update`)
+- "took profit" / "took some profit" (klassischer Partial-Exit)
+- "still have some for long" — nach Exit-Phrase = Hinweis auf Partial, nicht Full Close
+
 #### Fill-Bestätigungen (Signal-Typ `update`, KEIN neues Entry)
 
 - "Filled" (standalone reply, 3526, 3578, 3798, 3849)
@@ -95,6 +101,7 @@ Nur wenn Bot bereits in Position ist. Sonst = neues Entry.
 
 ### update / kein neues Entry
 - "X filled for me" = Jack ist bereits drin → kein neues Entry für Bot, sondern `update`
+- "will hold what I got" / "I will keep it" nach Drawdown = **Bag-Holding-Signal**. Status-Update, kein Trade-Action. Im Analyzer als Warnung werten (Jack hält in Verlust statt Stop zu nehmen — Hinweis auf schwaches Setup).
 - *(weitere Regeln folgen)*
 
 ---

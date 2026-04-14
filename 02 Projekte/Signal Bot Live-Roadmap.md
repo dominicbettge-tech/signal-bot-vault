@@ -169,6 +169,11 @@ Arbeitsmodus: **täglich bearbeiten**. Bei jedem Briefing wird der Status der ak
 - [[Parser Rebuild — Stress Test Phase A]] — aktueller Fokus von Phase 1
 - [[Parser Rebuild — Phase B Review Queue]] — manuelle Review nach Backtest-Abschluss
 
+## TODO-After-Liste (nach Phase 1 + Testcenter)
+
+- [ ] [[Conditional Watchlist Auto-Entry]] — Setup-Ankündigungen (Levels/Pattern) automatisch überwachen, bei Trigger Alert/Entry. **Vorher im Testcenter simulieren** ob positiver EV. Motivierender Case: LAES 5113 → 5409.
+- [ ] **Multi-Signal-Parser (Sub-Task Phase 1)** — Parser-Output von `Signal` → `List[Signal]` umstellen (Schema-Change, Empfehlung "Option B"). Claude entscheidet selbst wieviele Tickers in einer Nachricht stecken; signal_manager loopt über Liste. Motivierender Case: RADX #9 (msg 4200) — MIST-Nachkauf @1.80 + RADX-Status in 1 Nachricht, aktueller Parser verliert MIST. Aufwand ~1 Tag. Abhängigkeit: nach Parser-Review komplett, vor Testcenter-Bau.
+
 ## Aktueller Stand (2026-04-11)
 
 - **Aktive Phase:** Phase 1 (Parser-Zuverlässigkeit)
