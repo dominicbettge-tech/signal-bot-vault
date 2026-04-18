@@ -17,8 +17,15 @@ _Generiert automatisch nach User-Direktive „autonom bis morgen früh"._
 | H12c RSI-5min | `rsi5_tsl3` | 5-min-RSI + 3%-TSL | 82 | -0.20% | +0.09pp | 44% | ❌ | ❌ | +0.16% → -1.02% | -0.23% (1/4) |
 | P3 Volume-Climax | `vc_k3_tsl3` | Vol≥3×MA + Bearish + TSL | 82 | -0.34% | -0.05pp | 41% | ❌ | ❌ | — | — |
 | P4 VWAP-Break | `vwap_tsl3` | Close<cum-VWAP + Bearish + TSL | 82 | -0.29% | 0.00pp | 44% | ❌ | ❌ | +0.08% → -1.14% | -0.47% (1/4) |
+| P5 VWAP-Entry-Filter | `above_vwap_only` | Entry > cum-VWAP (Entry-Gate) | 51 | -0.11% | +0.19pp | 45% | ❌ | ❌ | +0.27% → -0.94% | -0.54% (1/3) |
 
-**Zentrale Beobachtung:** Keine einzige Indikator-Variante besteht das G5-Gate auf diesem Korpus.
+**Zentrale Beobachtung:** Keine einzige Indikator-Variante besteht das G5-Gate auf diesem Korpus — weder als Exit-Layer (P1-P4) noch als Entry-Gate (P5).
+
+### P5-Notiz (2026-04-18)
+- Distanz-Verteilung n=83: Median +4.82%, 63% entry>VWAP, nur 10% |dist|≤1%
+- `near_vwap_1pct` (n=7) zeigt Mean +0.08% — Sample-Größe zu klein für G5
+- `below_vwap_only` (n=31) Mean −0.60% bestätigt: Contrarian-Entries (unter VWAP) performen schlechter
+- Interpretation: Jack-Entries sind konzentriert im Momentum-Bereich (Median +4.8% über VWAP). VWAP-Distanz als Filter reduziert nur Sample-Größe ohne echten Edge-Gain.
 
 ## Kritisches Meta-Finding
 
