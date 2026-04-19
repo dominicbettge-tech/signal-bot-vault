@@ -1,0 +1,253 @@
+message_id|date|signal_type|ticker|side|entry_low|entry_high|stop_loss|confidence|trade_type|text
+3442|2025-10-09T15:06:42+00:00|watchlist|PSTV|long||||0.95|unknown|PSTV I placed a price alert ‼️ ( price alert not an order) at 0.69
+3446|2025-10-09T22:27:43+00:00|watchlist|BURU|long||||0.9|unknown|BURU was moving in the last few days. I might watch tomorrow and next week to share a trade there
+3447|2025-10-09T22:28:47+00:00|watchlist|YDDL|long||||0.95|unknown|Big move in YDDL I will keep an eye on it in the pre market but it is one of those where the risk is way too much so I will watch it pre market and see if I can trade it
+3449|2025-10-10T11:50:08+00:00|entry|GWH|long|3.65||3.3|0.95|day_trade|GWH is moving pre market with some news. Placed an order at  3.65 SL 3.30 Valid for 7 minutes.
+3452|2025-10-10T14:55:09+00:00|watchlist|HOWL|long||||0.9|unknown|HOWL I placed a price alert at 1.63  I will keep you posted
+3453|2025-10-10T15:34:46+00:00|watchlist|OCGN|long|1.6|||0.85|swing|Major sell off in the market  OCGN at 1.60 I will add some for long / swing
+3454|2025-10-10T15:50:44+00:00|watchlist|AKBA|long|2.69|||0.9|swing|I might add AKBA around 2.69 if it gets there today for a swing
+3457|2025-10-13T11:04:43+00:00|watchlist||long||||0.95|swing|Possible swings for today to focus on:  OCGN if it gets below 1.57 and stays above 1.50 I might add for swing. GNS If it gets below 0.83 and stays above 0.78  I might add some . AKBA below 2.73 and above 2.66 All those will stay open for me till 12:30 PM US ET
+3458|2025-10-13T14:03:00+00:00|entry|ELBM|long|3.49||3.25|0.9|day_trade|ELBM day trade 3.49 SL 3.25 Valid for 4 minutes
+3459|2025-10-13T14:23:14+00:00|entry|ELBM|long|4.45||4.15|0.9|day_trade|ELBM still a hot one for day trade  New order 4.45 SL 4.15 Valid for 4 minutes
+3460|2025-10-13T14:28:36+00:00|extend||long||||0.95|unknown|Extended for 3 minutes
+3461|2025-10-13T14:42:48+00:00|update||long|1.54|||0.9|unknown|Order filled at 1.54
+3462|2025-10-13T14:42:53+00:00|watchlist|OCGN|long||||0.85|unknown|OCGN
+3465|2025-10-14T10:47:12+00:00|watchlist|ELBM|long||||0.95|unknown|ELBM I placed a price alert at 5.30 Not an order only alert 🚨. I will keep you posted
+3469|2025-10-14T14:06:02+00:00|entry|ELBM|long|4.65||4.0|0.9|swing|ELBM I am going to start with a 4.65 filled for me might add more if it drops below 4.50  So far 4 is mySL for a swing
+3472|2025-10-14T14:44:33+00:00|watchlist|SLS|long||||0.95|unknown|SLS so far I am looking to see if it will get to 1.88 to 1.84 If not I will pass for today and may visit it tomorrow again will watch.
+3473|2025-10-14T15:16:09+00:00|update||long|1.88|1.89||0.9|unknown|Filled me two orders at 1.89 to 1.88 But all others still in the opening line
+3476|2025-10-14T16:03:21+00:00|take_profit|OCGN|long||||0.9|swing|In swing OCGN I am taking some profit out now around 1.64 and will keep the rest to see where it goes . It is up to you to decide the size
+3479|2025-10-14T21:27:22+00:00|update|ELBM|long||||0.9|swing|I am still holding ELBM took some profit out around 5 but left 70% to hold overnight. Risky move but I am fine as I made good in other trades
+3481|2025-10-15T12:18:50+00:00|watchlist|COOT|long||||0.9|day_trade|I am watching that move in COOT Stock. The volume is neutral so far The price action is bullish  Not a lot of static to support the move ( news ..etc) only speculation. It might still a good day trade so I might share an order.
+3482|2025-10-15T12:20:16+00:00|take_profit|OCGN|long||||0.9|swing|OCGN took out little more profit at 1.68 for the swing left the rest. SLS still holding 80% of what I got yesterday at 1.89 .
+3483|2025-10-15T12:22:10+00:00|update|ELBM|long||||0.9|unknown|ELBM  I am still slightly up there . I am watching to see if I will exit and closed today .
+3485|2025-10-15T12:37:55+00:00|watchlist|GNPX|long||||0.95|unknown|I noticed an interesting  3 bull flags pre market in  GNPX with  volume increasing rapidly. I am watching to see if I may trade it.
+3486|2025-10-15T13:05:47+00:00|watchlist|OMER|long||||0.85|day_trade|OMER is moving on good news might be a top target for day trading today . I will keep you posted
+3487|2025-10-15T13:18:46+00:00|exit|ELBM|long||||0.95|unknown|ELBM closed at a minor ( no loss no profit ) at 4.50
+3488|2025-10-15T13:54:20+00:00|entry|GNPX|long|0.58||0.52|0.85|day_trade|GNPX Day trade  0.58 SL 0.52 Valid for 4 minutes
+3489|2025-10-15T14:00:25+00:00|extend||long||||0.95|unknown|Extended for 3 more minutes
+3490|2025-10-15T14:04:41+00:00|cancel|GNPX|long||||0.9|unknown|GNPX broke another resistance so will cancel my order and might share another one
+3493|2025-10-15T14:30:24+00:00|watchlist|GNS|long||||0.9|day_trade|I am keeping an eye on GNS team… I am preparing a plan to share about this one as it may have a day to move up big soon 🔜
+3495|2025-10-15T14:54:43+00:00|exit|SLS|long|1.89|||0.95|swing|SLS took out my profit from the swing at 2.24  Still holding my other holds that I added previously.  I am only here talking about my swing trade  Entry  1.89 Out  2.24 Enjoy
+3496|2025-10-15T14:58:14+00:00|exit|OCGN|long|1.53|||0.95|swing|OCGN closed my swing at 1.71  Entry was averaged around 1.53
+3497|2025-10-15T17:34:59+00:00|watchlist|AKBA|long||||0.9|swing|AKBA  This one got a good swing
+3499|2025-10-15T19:25:09+00:00|update|PSTV|long||||0.85|unknown|PSTV Placed a price alerts at 0.61
+3502|2025-10-15T20:28:56+00:00|watchlist|MIRA|long||||0.95|day_trade|MIRA got a good news AH It will be in my watch list for possible trading tomorrow pre market.
+3504|2025-10-16T13:30:17+00:00|entry|GNPX|long|0.52|0.56||0.85|swing|GNPX placed a price alert at 0.56 and might get some around 0.52 if it gets there today for swing valid as long no public offering till 11 AM US ET . I might edit it if needed
+3505|2025-10-16T14:18:15+00:00|watchlist|OMER|long||||0.95|swing|OMER  I am watching to see if we can get a swing in it
+3508|2025-10-16T17:52:12+00:00|watchlist|DRMA|long||||0.9|swing|The special stock is DRMA: I was conducting my research in the last 7 weeks. I watched it from multiple perspectives. So far : As a risk we must all be aware of it all trades can be risky and I am sure you are all adults and understand the pinned message above. Now the major risk is any possible dilution which’s might be not too close because their financial position according to their last earning they have enough cash till second quarter of 2026. Now the possibility in DRMA related to : Super 
+3510|2025-10-16T18:05:16+00:00|entry|IVF|long|1.54||1.34|0.9|day_trade|Day trade: IVF 1.54 SL 1.34 Valid for 3 minutes
+3511|2025-10-16T18:31:29+00:00|update||long||||0.9|unknown|This one expired more than 20 minutes ago with no fill in the time frame .
+3513|2025-10-16T19:26:07+00:00|entry|PSTV|long|0.56|||0.85|swing|PSTV if it gets to  0.56 AH I am adding some for swing . Valid till 07:00 PM US ET
+3515|2025-10-17T11:52:02+00:00|watchlist|RANI|long||||0.9|unknown|RANI got news and some volume pre market. I might share a trade in it soon
+3517|2025-10-17T12:50:30+00:00|entry|RANI|long|1.18||1.05|0.85|day_trade|RANI I am going to take the risk and open a position around 1.18 With 1.05 SL And I will sell  most likely around the opening if my order my  order gets filled .
+3518|2025-10-17T13:07:52+00:00|update||long|1.19|1.22||0.9|unknown|Small order filled for me at 1.19 and 1.22 I might take profit now and keep some .
+3987|2025-12-08T19:49:51+00:00|watchlist|TWG|long||||0.9|unknown|TWG might still have another trade If halted down in the coming 3 minutes  I may place an order at  18.75
+3989|2025-12-08T19:56:39+00:00|update|TWG|long|18.75|||0.9|unknown|TWG  Bull flag volume increased by 8% in the last 20 seconds  Still I left my order at 18.75 open
+3991|2025-12-08T20:27:24+00:00|update|TWG|long|18.4|18.76||0.9|unknown|TWG got filled 18.76 18.40 I will sell 80% as I have a lot of other tasks .
+3992|2025-12-08T20:32:34+00:00|exit|TWG|long||||0.9|unknown|TWG closed that last trade with small profit . Still holding GURE so far the only hold from today trades.
+3994|2025-12-08T20:43:12+00:00|exit|TWG|long||||0.9|unknown|Pay attention to TWG if you bought it team. Again I needed to close it with slight gain because I got to deal with other trades .
+3997|2025-12-08T21:43:31+00:00|watchlist|XCUR|long||||0.95|unknown|XCUR Moving AH with news .  I am watching closely
+3998|2025-12-09T00:26:29+00:00|watchlist||long||||0.98|unknown|Alright my wonderful team. For my the pre market tomorrow so far  I think will keep in my watch list ( didn’t trade yet ) XCUR NCPL I usually prefer pre market over after hours because the volume usually more clear and we have the regular hours connected to it. I will keep you posted for sure! 👍
+4000|2025-12-09T12:14:00+00:00|watchlist|XCUR|long||||0.85|day_trade|So far after almost 2 hours trying to scan the market activities across the board .  There are few movers but the price tag is too high to risk  ATMC already up 650% It might swing up and down between 60 70 up to 110 But that’s if you have a large budget for it . As I said before I try to focus on something everyone can trade here for the group.  The other movers are facing pressure sell XCUR might risk and get some if it drops below 8.00 and stays above the support around 6.85 in the coming 15 
+4002|2025-12-09T14:10:30+00:00|watchlist||long||||0.95|day_trade|So far my top watch list and possibly day trade spots : XCUR may risk and add some if it can get me any order fill between  8.20 to 7.50   in the coming 25 to 35 minutes so basically that only includes the first five minutes after the market opens. Below 6.45 might be a bearish zone . But so far it is holding strong above 8 but that’s may change quickly when the market opens especially the volume still not too big . NCPL Got some volume and I am watching to see if any below 0.96 to 0.89 orders w
+4003|2025-12-09T14:33:17+00:00|update|ORKT|long|1.2|1.21||0.9|unknown|ORKT got me filled at 1.20 and 1.21
+4005|2025-12-09T14:39:17+00:00|update|NCPL|long|1.05|||0.9|day_trade|Halted up NCPL Got A small order at the opening around 1.05 still holding
+4007|2025-12-09T14:45:22+00:00|take_profit|NCPL|long||||0.9|unknown|Took profit out at 1.50 might share another plan for NCPL soon 🔜.
+4008|2025-12-09T14:50:39+00:00|watchlist|NCPL|long|1.18|1.25||0.85|day_trade|NCPL If it failed to break 1.54 resistance it may drop below 1.25 to 1.18 there I may enter for quick day trade in the coming 3 to 4 minutes max.
+4009|2025-12-09T14:54:30+00:00|update|NCPL|long||||0.9|unknown|NCPL Time out with no fill the lowest it got 1.27 . Still watching
+4012|2025-12-09T15:06:15+00:00|entry|NCPL|long|1.42|||0.85|day_trade|NCPL  One more trade  1.42 Valid for 3 minutes
+4013|2025-12-09T15:16:17+00:00|watchlist|NCPL|long||||0.85|unknown|NCPL another halt up
+4016|2025-12-09T15:47:58+00:00|update|SLS|long||||0.85|unknown|SLS 1.90 plus We are doing so good there team Remember last week or so added below 1.45 Holding strong still
+4017|2025-12-09T15:49:34+00:00|watchlist|OCG|long||||0.85|unknown|OCG Move there but honestly I don’t see any info about the volume or the reason! So I might be careful..
+4018|2025-12-09T16:10:54+00:00|watchlist|NCPL|long||||0.9|unknown|Another volume push got a halt up for NCPL
+4020|2025-12-09T16:50:55+00:00|entry|OCG|long|5.65|||0.85|day_trade|OCG Broke few resistances I placed a small test at 5.65 It may halt down soon .
+4021|2025-12-09T16:54:38+00:00|entry|OCG|long|6.39|||0.85|day_trade|OCG broke another resistance up switching my order to 6.39 Leave it for 9 minutes
+4023|2025-12-09T16:58:08+00:00|cancel||long||||0.9|unknown|Cancelled in case it halts down
+4026|2025-12-09T21:31:59+00:00|entry|HSPO|long|31.75|||0.95|day_trade|HSPO  Another low float mover AH Too risky with a high price tag ( above 30 AH )  Regardless I put an order at  31.75 to try it out for the next 5 minutes
+4029|2025-12-09T21:46:39+00:00|watchlist|HSPO|long||||0.85|unknown|HSPO still the top one  IPW dropped bad so might only keep watching HSPO
+4032|2025-12-10T13:06:35+00:00|watchlist|ASPC|long||25.0|21.0|0.9|day_trade|So far pre market report: ASPC a spac company mover: It moved to high of around 42 dropped then to 23 . In the pre market ( next 15 minutes ) If I want to risk I might watch for a possible entry below 25 ( needs to stay above 21 ) to exit for any 20% up to 45% profit . The other mover: ENVB Low float but a high dilution stock ( offering lover) It got news  I am watching to see if I can in the coming 7 to 12 minutes  Trade it between  10.50 to 14.75 up to 16 It has a potential to gap up sharp if 
+4033|2025-12-10T14:28:06+00:00|entry|POM|long|1.08|1.2||0.95|day_trade|POM I placed orders at  1.08 1.12 1.20 Valid for the next 15 minutes only so far! As it may be oversold around that. Stock already down 73% pre market. I will keep watching it.
+4034|2025-12-10T14:36:44+00:00|update|POM|long||||0.85|unknown|POM halted down my orders to stay so far as it was
+4035|2025-12-10T15:20:36+00:00|update|POM|long||||0.9|unknown|POM might halt down again but still my orders open. Nothing filled from them .
+4036|2025-12-10T15:33:00+00:00|cancel|POM|long||||0.9|unknown|POM Cancelled the 1.20 left the others  1.12 1.08
+4038|2025-12-10T15:43:50+00:00|update|POM|long|1.12|||0.9|unknown|POM very close to fill my first order at 1.12 but yet no fill I was able to predict those levels since it was around 1.70 when market opened . You all saw it.
+4040|2025-12-10T15:48:16+00:00|update|POM|long||||0.9|unknown|POM got one order filled
+4043|2025-12-10T15:57:31+00:00|watchlist|BBGI|long||||0.9|day_trade|BBGI  Got two bull flags back to back with a halt up action . I May Day trade it soon to cover any losses with POM so I can hold it. BBGI let us see if it will break a new intra day high.
+4044|2025-12-10T16:02:50+00:00|entry|BBGI|long|10.7|||0.95|day_trade|BBGI  Halted down  After it got to a new intra day high . I placed an order at 10.70 trying to see if I can get a day trade in it. Will wait for it to unhalt first
+4045|2025-12-10T16:04:53+00:00|take_profit|POM|long||||0.9|unknown|POM too much risk .. I am going to cut half and leave only half it is not holding a support .
+4048|2025-12-10T16:14:33+00:00|exit|BBGI|long|10.75|||0.95|day_trade|BBGI filled me one order at 10.75  Sold quickly at 11.20 small profit trade
+4049|2025-12-10T16:18:39+00:00|watchlist|BBGI|long||||0.9|unknown|BBGI if you got any pay attention team
+4051|2025-12-10T16:19:35+00:00|take_profit||long||||0.9|unknown|That’s a one good trade to cover that POM Entry reached easily just try to secure profit enjoy
+4056|2025-12-10T16:32:09+00:00|update|BBGI|long||||0.85|unknown|BBGI got to 15.40
+4057|2025-12-10T16:45:08+00:00|watchlist|BBGI|long||||0.9|unknown|BBGI halted up again
+4058|2025-12-10T16:55:56+00:00|watchlist|BBGI|long||||0.9|unknown|BBGI  Another halt up
+4062|2025-12-10T18:12:15+00:00|update|GURE|long|||4.0|0.9|unknown|GURE still holding I hope for anything above 6 to start exit .  As long as it stays above 4 might just hold it for now!
+4068|2025-12-10T18:50:03+00:00|take_profit||long||||0.9|unknown|Secured my profit at 6.20 money is money. 💵  Life is about taking advantage of some opportunities .
+4074|2025-12-11T13:49:05+00:00|watchlist|BTTC|long||||0.9|day_trade|BTTC so far the only possible day trade today . I might watch it to trade team. The others look weak .  I will keep you posted
+4077|2025-12-11T18:30:47+00:00|entry|MIGI|long|12.55|||0.95|day_trade|I placed a day trade order  MIGI at 12.55 Valid for 6 minutes only!
+4078|2025-12-11T18:42:12+00:00|extend||long||||0.95|unknown|Extended for another 5 minutes.
+4079|2025-12-11T18:51:49+00:00|cancel||long||||0.95|day_trade|No fill still. I will watch more .. Volume is decreasing but it may still pull a day trade opportunity but I will only watch for now. So my order cancelled also
+4080|2025-12-11T18:53:49+00:00|watchlist|MIGI|long||||0.9|unknown|MIGI Halted up in case you got any team
+4084|2025-12-12T15:56:45+00:00|entry|OCG|long|1.36|||0.95|day_trade|I placed on day trade at OCG 1.36 valid for 7 minutes will try to see if I can day trade this one .
+4085|2025-12-12T15:59:57+00:00|update||long||||0.9|unknown|Halted down partial order filled for me . The rest got auto cancel
+4086|2025-12-12T16:04:36+00:00|exit|OCG|long||||0.9|unknown|OCG needed to take extra caution sold at 1.43
+4087|2025-12-12T16:05:05+00:00|take_profit||long||||0.9|unknown|The market is under heavy sell off but if you bought it try to secure any profit . Enjoy
+4091|2025-12-12T16:27:56+00:00|watchlist|BBGI|long||||0.9|swing|I am watching BBGI if it will drop below 6 again might swing it .
+4094|2025-12-12T17:55:17+00:00|watchlist|OCG|long||||0.9|unknown|OCG another bullish bull flag halted up
+4097|2025-12-12T18:27:46+00:00|entry|OCG|long|2.39|||0.95|day_trade|OCG I may trade it again Placed an order at  2.39 For the next 3 minutes especially if it halts down.  I will only watch it for 10 minutes after that I will be not watching it
+4098|2025-12-12T18:40:14+00:00|cancel|OCG|long||||0.9|unknown|OCG  Another halt up …. I will extend my watch to it but cancelled my last order.
+4101|2025-12-12T19:06:25+00:00|entry|NDRA|long|4.65|||0.9|day_trade|NDRA will keep an order open at 4.65  till  06:00 PM US ET tonight.
+4103|2025-12-12T20:50:01+00:00|watchlist|OCG|long|0.2|||0.85|swing|OCG risk vs reward move Very risky but I may get some around 0.20 if it gets there before the market close. Trying to see if it will have any bounce AH. Very risky move but honestly I will use some of my profit from day trading it earlier
+4104|2025-12-12T21:18:34+00:00|take_profit||long||||0.9|unknown|Risked some filled order and sold half of it at 0.29  We made it team nice and easy money 😁
+4108|2025-12-15T14:12:54+00:00|entry|MASK|long|0.47|||0.9|day_trade|MASK  Moved based on news so far the volume is not the best but might get better. I am getting some if my order at  0.47 Fills in the next 6 minutes
+4109|2025-12-15T14:15:01+00:00|watchlist|RADX|long||||0.95|unknown|Another one moved big pre market today is RADX  It may get another bull flag if it stays above 13.00 in the coming 10 minutes
+4110|2025-12-15T14:33:44+00:00|update||long||||0.85|unknown|Got filled here might take profit soon pay attention
+4111|2025-12-15T14:34:13+00:00|take_profit||long||||0.9|unknown|Sold half at 0.59
+4112|2025-12-15T14:34:47+00:00|watchlist|RADX|long||||0.9|unknown|RADX halted up
+4113|2025-12-15T14:35:54+00:00|exit|MASK|long||||0.9|unknown|MASK sold the rest at 0.57. Easy money
+4114|2025-12-15T14:40:36+00:00|update|RADX|long|13.0|||0.9|day_trade|RADX I Got some at 13 Took half out at 16 Easy trade also
+4115|2025-12-15T14:41:41+00:00|exit||long||||0.9|unknown|Halted down triggered my sell at 14.50  Might watch for another trade If there is a support above 12.50
+4116|2025-12-15T14:46:58+00:00|watchlist|RADX|long||||0.95|unknown|RADX halted down again no new trade yet still watching
+4117|2025-12-15T14:51:44+00:00|entry|MIST|long|2.2|2.23||0.85|unknown|MIST  I might get some if it can fill my order at 2.23 to 2.20
+4120|2025-12-15T15:28:17+00:00|entry|AMCI|long|5.8|||0.95|day_trade|AMCI Placed an order at 5.80 for day trade  It has 50/50 chance to halt up or down in the coming 3 minutes. So I placed my order and waiting
+4121|2025-12-15T15:39:22+00:00|entry|AMCI|long|6.95|||0.9|day_trade|AMCI  dropped to 6.19 the lowest then got a bull flag up to 8.18  Switched my order to 6.95 for the next 4 minutes only. Let’s us see what might happen
+4124|2025-12-15T15:54:10+00:00|watchlist|LAES|long||3.9||0.85|day_trade|LAES below 3.90 might be an oversold zone intra day . I might get some there to day/swing . Only till 12:00 PM US ET this to be valid
+4125|2025-12-15T16:46:22+00:00|watchlist|ATOS|long||||0.85|unknown|ATOS below 0.70 will be in my add zone as it may be an oversold there.
+4126|2025-12-15T18:18:19+00:00|update|MIST|long|2.28|||0.85|swing|MIST got some at 2.28 but will hold for now. For swing to long
+4127|2025-12-15T18:19:03+00:00|update||long||||0.85|unknown|This no fill but still open
+4130|2025-12-16T00:49:59+00:00|watchlist|NDRA|long||||0.9|unknown|My great team: NDRA still a stock that I am eager to add whenever it gets to my levels I will keep posted for sure.
+4134|2025-12-16T13:38:54+00:00|entry|SRXH|long|0.92|||0.95|day_trade|Major move pre market in SRXH The volume still low. Didn’t see the news yet!! Free float around 27 M I placed a risk vs reward order at 0.92 Valid only again for this one particular I will strictly follow the time so valid for 4 minutes from this post .
+4135|2025-12-16T13:43:17+00:00|extend||long||||0.95|unknown|Extended the time for another 3 minutes
+4138|2025-12-16T14:06:57+00:00|watchlist|MIST|long||2.0||0.85|unknown|MIST I may add more if it gets me anything below 2 today!
+4140|2025-12-16T15:18:15+00:00|watchlist|VMAR|long||||0.95|unknown|I am watching the current intra day action in VMAR. It halted up so far .
+4142|2025-12-16T15:26:58+00:00|watchlist||long||||0.85|unknown|This one VALID for today team watch it
+4143|2025-12-16T15:27:38+00:00|exit|VMAR|long|0.74|||0.95|day_trade|VMAR tested and got some at 0.74 sold at 0.90 So far increased from my first posy by 22%
+4145|2025-12-16T15:49:21+00:00|entry|RADX|long|5.0|5.3||0.95|day_trade|RADX Placed an order at 5.30 to start with  Another one at 5.00 Left some to get more in case it drops more below 5  this is valid for 45 minutes.
+4146|2025-12-16T16:00:18+00:00|update|MIST|long|2.26|||0.85|unknown|MIST still a hold added another medium size block at 2.26
+4149|2025-12-16T16:49:02+00:00|watchlist|RADX|long||||0.9|unknown|I am keeping close watch on RADX team.
+4150|2025-12-16T16:49:28+00:00|update||long||||0.85|unknown|I might edit this order so far will keep it till 01:00 PM US ET
+4153|2025-12-16T21:44:47+00:00|watchlist|RADX|long||||0.9|unknown|I am still watching RADX also as I might attempt to add some the lowest it got was 5.77 but I can tell if it gets below 5 it will create another bull oversold zone where it may reverse up by 25% to 45% from there.
+4154|2025-12-16T21:54:16+00:00|entry|MIST|long|2.05|||0.95|unknown|MIST  I placed an order at 2.05 AH to add for my average
+4158|2025-12-17T13:24:16+00:00|watchlist|ATPC|long|0.145|0.18||0.85|day_trade|So far the pre market activities report: ATPC a pre market mover involved big risk but it comes with a very tiny price tag around 0.17  I might try to get a trade pre market  Between 0.145 to 0.18!
+4159|2025-12-17T13:28:08+00:00|entry|WBUY|long|1.45|1.6||0.9|day_trade|WBUY I am paying attention to this low float  I placed small orders  at 1.45 to 1.60  The big risk there : Some warrants: dilution . But I am watching it and might risk some in it .
+4160|2025-12-17T14:44:37+00:00|update||long|5.35|||0.9|unknown|Activated this order again got small filled at 5.35 Left the others open
+4161|2025-12-17T14:56:54+00:00|update|MIST|long|2.03|||0.9|swing|PCSA Halted up  It may be a day trade target . MIST  Averaged more at 2.03 Final average order for this week for me 1.89 I will hold from here and see how it goes  Yesterday it got to 2.58 that’s why I said here whenever you see a Chance to secure profit so you can re enter cheap always a great choice with biotech stocks.
+4162|2025-12-17T15:03:38+00:00|entry|PCSA|long|5.5|||0.95|day_trade|PCSA Entered at 6.53 might exit after the halt. Placed another order at 5.50 will see if it will fill in the next 5 minutes
+4164|2025-12-17T15:08:42+00:00|update||long|6.53|||0.85|unknown|Here we go another order filled at 6.53 I provided to you and halted up
+4166|2025-12-17T15:09:47+00:00|update||long||||0.85|unknown|The 5.50 order still open Full transparency
+4167|2025-12-17T15:13:59+00:00|take_profit||long||||0.9|unknown|Profit out at 8.30 Fantastic trade
+4168|2025-12-17T15:14:28+00:00|update||long||||0.85|unknown|It halted down left the 5.50 order still but reduced the size of it .
+4172|2025-12-17T15:37:52+00:00|cancel||long||||0.9|unknown|The 5.50  order I am going to cancel in 2 minutes as I already made great trade with PCSA .
+4173|2025-12-17T15:45:27+00:00|cancel|PCSA|long||||0.9|day_trade|Halt down in PCSA with major sell orders in level 2. Just be careful team again I cancelled my open order at 5.50 personally but you can try it out for quick in out
+4174|2025-12-17T16:04:32+00:00|watchlist|PCSA|long||||0.9|unknown|PCSA halted up
+4175|2025-12-17T16:47:15+00:00|update||long||||0.9|unknown|My order at 5 was very close to get fill but not yet
+4176|2025-12-17T16:47:49+00:00|update||long||||0.85|unknown|The 5.30 one filled completely
+4183|2025-12-18T12:47:58+00:00|watchlist|ATHA|long||||0.9|unknown|So far from scanning the pre market activities. ATHA is moving based on news but the move still weak with low volume. I will keep watching it in case anything changes.
+4184|2025-12-18T14:39:59+00:00|watchlist|ATHA|long||||0.9|day_trade|ATHA still the one I am focused on for day trade
+4189|2025-12-19T15:09:36+00:00|update|RADX|long|5.18|||0.85|unknown|Added another small block of RADX at 5.18 still holding it. Mist still holding  No day trade yet today  I saw AZI might try there will keep you posted but overall  The volume today is below last week by 2.6% that’s most likely means people are selling more than buying
+4190|2025-12-19T18:08:26+00:00|entry|MIMI|long|0.44|||0.95|day_trade|Placed me an order at 0.44 for day trade in MIMI Valid for the next 5 minutes !
+4192|2025-12-19T19:30:53+00:00|take_profit||long||||0.9|unknown|If you ever bought throw this order pay attention to secure profit
+4198|2025-12-22T14:09:07+00:00|watchlist|SIDU|long||||0.9|day_trade|SIDU  I like the news. But the volume and the float not the best. I am waiting to see if it can break up for another 15% then I may try to place it in the 2 minutes scale for resistance vs support day trade algorithm method .
+4201|2025-12-22T14:46:28+00:00|entry|HXHX|long|0.695|||0.95|day_trade|HXHX intra day day trade. Placed an order at 0.695 For the next 6 minutes
+4206|2025-12-22T15:12:01+00:00|watchlist|SIDU|long||||0.85|unknown|SIDU Is getting some push let us see
+4208|2025-12-22T15:23:38+00:00|entry|SIDU|long|2.28|||0.85|unknown|Pay attention to SIDU team Trying another order at 2.28  Traded it once from 1.89 to 2.18 now trying one more time
+4209|2025-12-22T15:42:18+00:00|exit||long|2.27|||0.95|day_trade|Filled me at 2.27 I will try to secure profit soon as I have to reset my trading apps also soon 🔜.  In 2.27 out at 2.36 not bad in less than two minutes.
+4210|2025-12-22T15:43:53+00:00|update|SIDU|long|2.28|||0.85|unknown|SIDU got 2.40 so in case you got around 2.28 the order I shared .
+4211|2025-12-22T15:48:32+00:00|stop_loss_update|RADX|long|||4.65|0.9|unknown|RADX it needs to stay above 4.65 for me to keep holding it .
+4214|2025-12-22T16:35:03+00:00|take_profit|SLS|long||||0.9|unknown|SLS If you  remember adding zone shared here few weeks ago was 1.45 and below we got that. 85% profit since then It is up to you where you want to secure profit in those biotech. I always calculate my risk before any reward regardless! Enjoy
+4216|2025-12-22T19:15:01+00:00|take_profit|RADX|long||||0.9|unknown|RADX back green took some out for safety precautions left the rest. The market in some pressure sell and I am looking into some opportunities will share soon whenever they get to my trading zone.
+4217|2025-12-22T20:46:15+00:00|entry|HXHX|long|0.935|||0.95|day_trade|Interested price action in HXHX  The one mentioned here earlier. I placed an order at  0.935  if it can’t fill in the coming  4 minutes will cancel and watch the AH action in it.
+4218|2025-12-22T20:47:04+00:00|watchlist|FJET|long||||0.9|unknown|Another big mover today is FJET . Moved so far 315%  I will watch it AH .
+4221|2025-12-22T21:57:59+00:00|entry|HXHX|long|0.74|||0.95|day_trade|HXHX placed me an order at  0.74 I will watch to see if any will fill for any 15% profit trade.
+4222|2025-12-22T22:51:42+00:00|cancel||long||||0.85|unknown|Cancelled and edit the order to 0.715
+4223|2025-12-22T23:02:28+00:00|watchlist|SNGX|long||||0.9|unknown|Special trade idea here only: Pay attention to SNGX I have been watching it for almost two weeks. I placed a price alert 🔔 around 1.21 most likely  1.14 to 1.19 might be on oversold zone . It may create a potential 22% to 35% squeeze from around there. I will keep you posted! Just wanted to share it here first with you!
+4226|2025-12-23T14:41:00+00:00|watchlist|PCLA|long||||0.9|day_trade|PCLA Some volume plus price upside momentum. I am looking to day trade . May share an order soon 🔜
+4227|2025-12-23T15:09:54+00:00|entry|HIHO|long|1.56|||0.95|day_trade|Placed an order at  1.56 for HIHO Valid for 7 minutes as long as no halt down happens.
+4228|2025-12-23T15:24:39+00:00|take_profit||long||||0.85|unknown|No order filled in the time frame . If any of you left the order might already filled a minute ago or so try to secure profit if you can. I may share another one but for now I will watch .
+4231|2025-12-23T16:43:06+00:00|entry|PCLA|long|0.32|||0.95|day_trade|PCLA performed a great day trade today mentioned earlier here when it was below 0.26  I placed an order for another one at 0.32 Want to see if it can get there for any quick profit trade.
+4232|2025-12-23T17:17:02+00:00|watchlist|GNS|long||||0.9|swing|GNS This stock good for swing if you catch the real support on the 30 days chart. I may place a price alert 🔔 at 0.52~0.55 For the next 24-48 hours
+4233|2025-12-23T17:18:54+00:00|update|RADX|long||||0.85|unknown|Pay attention to RADX if you still have it. I sold some at 5.62 yesterday but still holding some
+4234|2025-12-23T20:53:54+00:00|entry|PCLA|long|0.2875|||0.85|day_trade|PCLA  more than 700 M volume Team I may put an order after hours at  0.2875 Counting a possible 27% drop AH then a possible 16% to 18% reverse But if they announce any offering auto cancel.
+4235|2025-12-23T21:26:26+00:00|update|PCLA|long|0.2875|||0.9|unknown|PCLA filled at 0.2875
+4239|2025-12-23T21:38:42+00:00|stop_loss_update|PCLA|long|||0.25|0.9|unknown|PCLA  MY SL is 0.25  I added little more at 0.2725  Will see where it goes I only used little money in it as you see the share price is already not big . So the risk for me even if it gets to the SL not too big .
+4240|2025-12-23T21:42:41+00:00|update|PCLA|long||||0.85|unknown|PCLA back green up for me around 8%
+4242|2025-12-23T22:55:43+00:00|take_profit|PCLA|long||||0.9|unknown|PCLA my team I am securing half out at 0.307 filled
+4247|2025-12-23T23:01:42+00:00|exit||long||||0.9|unknown|Closed another block at 0.3225 filled Got some ( 20% of my original size) left. Made decent win here enjoy team ✅
+4248|2025-12-23T23:27:53+00:00|update|PCLA|long|0.2725|0.2875||0.9|unknown|PCLA  Got to 0.337 team  Suggested entry were 0.2875 to 0.2725 all filled
+4252|2025-12-24T11:59:43+00:00|entry|MWG|long|0.435|||0.95|day_trade|MWG  Got some good news yesterday. Volume pre market not the best yet . Price action looks good so far. I placed me an order  0.435 Will see if anything fills in the coming 30 minutes.
+4253|2025-12-24T12:31:04+00:00|extend|MWG|long||||0.95|unknown|MWG  Extended the order for another 15 minutes
+4254|2025-12-24T13:03:26+00:00|take_profit|DRMA|long||||0.95|unknown|If you have DRMA based on any previous alerts I shared here pay attention to secure profit as it is moving and this stock usually moves up then drop .
+4261|2025-12-24T15:01:00+00:00|entry|SOBR|long|2.35|||0.95|day_trade|SOBR placed me an order at  2.35 for day trade valid for 6 minutes.
+4262|2025-12-24T15:07:49+00:00|cancel||long||||0.95|unknown|Expired with no fill . Will cancel and watch it for the next 2 to 3 minutes to see where the support
+4265|2025-12-24T17:54:42+00:00|update|RADX|long||||0.9|unknown|RADX in a move but I am still holding what left from it.
+4266|2025-12-24T19:40:30+00:00|take_profit|PCLA|long||||0.92|unknown|PCLA moved again Wow.. I was about to share another trade idea about it just 30 minutes ago … But yesterday we made some in it .  If you still have any from yesterday please pay attention and secure profit
+4267|2025-12-24T19:48:05+00:00|watchlist|AQST|long|5.4|5.7||0.85|swing|A stock to focus on this coming Friday for a possible January price movement. AQST! I will start adding between  5.40 up to 5.70 Possible exit I am aiming for a possible 30% prior to the PDUFA  date ( Jan 31st so far expected not confirmed).
+4272|2025-12-26T13:18:01+00:00|entry|DTCK|long|0.385|||0.95|day_trade|DTCK Pre market day trade Placed me an order at 0.385 Valid for 7 minutes .
+4273|2025-12-26T13:42:48+00:00|cancel||long||||0.9|unknown|No fill in the time mentioned. I will keep it in the watch for a possible day trade regardless
+4274|2025-12-26T15:36:21+00:00|watchlist|RADX|long||||0.9|unknown|RADX I am watching to see if it will break the wall at 6.00 today so far still holding what left from my trade in it.
+4276|2025-12-26T16:10:00+00:00|entry||long|6.45|6.7||0.85|swing|I am going to play a risk vs reward  I will add slowly between  6.45 up to 6.70 Will take profit on 70% of my holdings size prior to the data release.
+4278|2025-12-26T16:40:38+00:00|entry|IKT|long|1.63|1.74|1.48|0.95|swing|My great team: ONLY HERE IN THIS GROUP: IKT Easy swing if you are interested : Between : 1.63 up to 1.74 SL 1.48 Possible profit : Estimated 15% to 25%  I placed an order with price alert 🔔 to track it valid till the end of today might extended it till Monday pre market ( the major risk is any offering news ) the stock looks super bullish in the 30/60 days .
+4281|2025-12-26T19:42:00+00:00|entry|SOPA|long|1.63|||0.85|day_trade|SOPA is trending in the day trade zone Free float around 10 M Market cap 12  It is very risky as no major resistance got broken yet  But I am trying an order at  1.63  Valid for 6 minutes only so far!
+4283|2025-12-26T20:00:42+00:00|entry||long|1.85|||0.75|day_trade|New plan 1.85 possible entry  Valid for 5 minutes only so far
+4285|2025-12-26T20:52:24+00:00|watchlist|OMER|long|14.75|15.5||0.85|swing|OMER is heading to a bullish close team. I know the price tag is already high . But if you remember I started OMER here when it was around 8 few weeks ago. I got some profit out at 17 Left some I may consider adding some for a possible 15% swing trade from between  14.75 to 15.50 as possible entry  To 18.50 up to 20 as a possible exit in 2 to 4 weeks. I wanted to share here before any other group!
+4286|2025-12-26T23:08:59+00:00|watchlist|RPGL|long||||0.9|day_trade|Good evening my great team. I noticed few moves AH but honestly most of them among what you can call ( pump and dump action) RPGL  Moved AH  No actual material news. Volume low. It got to almost 0.55 the highest  Now it is getting sell volume pressure. If May test the thin support line around 0.385 then reverse by 11% to 12% up to 18% as a possible quick trade . Too risky still but I said let me share with you!
+4288|2025-12-29T12:01:57+00:00|watchlist|RPGL|long|0.435|0.455||0.85|day_trade|RPGL still a potential day trade pre market. I may try to get some between  0.435 up to 0.455 If it gets there in the coming 15 minutes for a quick 15% to 25% trade
+4289|2025-12-29T12:16:01+00:00|update||long|0.455|||0.9|unknown|Filled me at 0.455
+4290|2025-12-29T12:29:23+00:00|take_profit||long|0.455|||0.9|day_trade|In the track to achieve the first successful day trade for the day ✅ Entry at 0.455 Sold 65% at 0.4880 Leaving the rest to see where goes ( I already secured my capital) ✅✅🦅
+4291|2025-12-29T15:37:37+00:00|exit|RPGL|long||||0.9|unknown|RPGL if you got any from pre market it is moving. Sold the 35% ( left over ) at 0.52 closed ✅
+4296|2025-12-29T16:17:07+00:00|watchlist|MREO|long||||0.95|unknown|MREO dropped 91% with data. I usually look at those for any possible dead cat bounces when they reach certain levels. I placed a price alert 🔔 in my brokerage at 0.18 will watch from there
+4308|2025-12-30T14:44:20+00:00|entry|AEHL|long|1.89|||0.95|day_trade|Placed a day trade order at 1.89 in AEHL valid for 7 minutes
+4314|2025-12-30T22:52:26+00:00|watchlist|IBRX|long||||0.9|unknown|IBRX  Will enter a deep oversold zone if it gets below  1.80 this week! I placed a price alert 🔔 there. It could trigger a good buy zone if it gets there just wanted to share with you here first and only!
+4315|2025-12-30T23:52:12+00:00|watchlist|ANGH|long||||0.95|unknown|ANGH I will add this to my pre market watch list tomorrow. It moved AH but the volume is fragile and no clear bull flag but it may change in the pre market. I wanted to keep you posted!
+4316|2025-12-31T13:57:45+00:00|watchlist|ANGH|long||3.65||0.85|day_trade|Good morning 🌞. My great team here .  So far ANGH the only stock I watched from last night through the pre market. Some of you traded it already ✅ I may trade it if it can fill me any order below 3.65 before the market opens for intra day trade.
+4317|2025-12-31T14:15:56+00:00|watchlist|BMRA|long|2.13|2.21|2.0|0.9|swing|Overall the market in a hold mode. OMER still holding got some profit there but will carry on and hold most likely. IMRX  I am hoping I can exit some of it by Friday to not risk much through the data read out next week! A stock I am also watching today for possible swing : BMRA  Placed a price alert 🔔 at 2.25 Possible entry levels: 2.13 up to 2.21 SL 2 Possible exit : Might get some and hold for anything between 18% up to 30% profit in the coming week or so. I will keep my plan active for the co
+4320|2025-12-31T15:11:21+00:00|watchlist|INBS|long||||0.9|day_trade|INBS in the day trade zone : It got a halt up some news and it is a low float. In the other hand the stock got a reputation of not keeping value and drastically decreasing after every run. So if I decide to day trade it it will be mainly a day trade so far!
+4321|2025-12-31T15:49:28+00:00|update||long||||0.9|unknown|Filled me one order only the rest left open. Average cost so far around 1.08 .
+4322|2025-12-31T15:51:04+00:00|update|INBS|long|7.95|||0.85|unknown|INBS tried one small order at 7.95 so far it is doing fine but most likely will secure profit soon 🔜
+4324|2025-12-31T17:19:42+00:00|exit||long||||0.9|day_trade|So far that 7.95 if you see the time mentioned was one of the best level for intra day . I sold at 9.45 in decent profit . No more day trades for me today unless something really interesting shows up. I am focused on the other swing .  I will keep you posted my great team!
+4328|2025-12-31T21:38:34+00:00|watchlist|OTLK|long|0.23|||0.85|unknown|OTLK is dropping big AH Might try an order at 0.23 see if it will fill any for any bounce
+4329|2025-12-31T21:52:20+00:00|update|OMER|long||||0.9|swing|OMER IMRX still in my holding going through the new year eve ✅!
+4334|2026-01-02T15:08:21+00:00|entry|LVRO|long|1.05|||0.95|day_trade|LVRO entered a day trade zone with two bull flags in the last 8 minutes. I placed an order for day trade at  1.05 valid for 5 minutes . If it halts down in the next 2 minutes I will cancel automatically.
+4335|2026-01-02T15:12:45+00:00|cancel||long||||0.85|unknown|Halted down as expected so canceled my order. I will replace it with a new one at 0.89 for a quick profit trade if it fills after the halt .
+4336|2026-01-02T15:18:31+00:00|stop_loss_update|IMRX|long|||6.3|0.85|swing|IMRX  I will cut half of it if can’t hold above 6.30 and also for safety precautions before the incoming data. I tried to swing it and I didn’t get much of it so I am not interested in risking a lot .
+4338|2026-01-02T15:36:30+00:00|take_profit|LVRO|long||||0.9|unknown|Some of you got LVRO based on few personal texts I got. I am so happy for anyone got any of it as I didn’t yet ( full transparency as usual) but if you got any pay attention as it halted up . Always try to secure profits with those moves ✅✅
+4339|2026-01-02T16:14:56+00:00|watchlist|LVRO|long||||0.9|unknown|LVRO another halt up!
+4341|2026-01-02T16:57:44+00:00|update|AIM|long||||0.9|unknown|AIM so far 7% up from my trade I shared here. Holding still
+4346|2026-01-05T04:02:34+00:00|watchlist|ACHV|long|4.1|4.6|3.8|0.85|swing|Good evening my great team here. I hope you all enjoyed your weekend. I am going to pay attention more to ACHV The stock entered a bullish zone for both 30 / 90 days chart. There is a potential good swing in it. The entry between: 4.10 up to 4.60 With a possible 3.80 as SL for 90 days . I am expecting  5.50 up to 6.00 in the short term ( 10 to 14 days ) It has also  a potential bigger move within the next 90 days.
+4348|2026-01-05T12:20:22+00:00|watchlist|MOBX|long||||0.95|day_trade|MOBX Some news plus upside in the price pre market activities. I am putting it in my possible day trade list for today.  It needs more volume still to confirm the bullish uptrend.
+4349|2026-01-05T13:01:17+00:00|update|IMRX|long||||0.9|swing|IMRX  I am still holding 60% of what I got last week . I am hoping to get some profit today or tomorrow at most will see!
+4350|2026-01-05T13:44:18+00:00|watchlist|VRME|long||||0.95|unknown|VRME got merger news. 55% move so far pre market. I am adding this also to my watch list for today. Volume still weak.
+4351|2026-01-05T14:06:37+00:00|entry|VRME|long|0.92|||0.95|day_trade|VRME MOBX still in my top day trading list so far. I placed an order at 0.92  for VRME valid for the next 10 minutes
+4352|2026-01-05T14:54:04+00:00|entry|TMDE|long|0.86|||0.95|day_trade|VRME Made a successful trade from 0.92 to 1.12 Will watch to see if more trading levels might show. Another one  TMDE I placed a day trade order at  0.86
+4353|2026-01-05T14:58:12+00:00|watchlist|TMDE|long||||0.9|unknown|TMDE halted up
+4355|2026-01-05T15:10:25+00:00|update|TMDE|long|0.86|||0.9|day_trade|TMDE halted down kept my order at 0.86 to see if any will fill
+4356|2026-01-05T15:38:20+00:00|watchlist|NRXP|long|2.16|2.34||0.85|swing|NRXP … Fundamentally looks fine. Price moving averages looks weak.  I am having in it for both swing and swing to long. Possible adding zone : 2.16 to 2.23 2.23 to 2.34 I may update the info but this valid till the end of today so far
+4357|2026-01-05T17:33:49+00:00|entry|TMDE|long|1.05|||0.95|day_trade|TMDE Placed a new day trade order at 1.05 valid for 10 minutes
+4361|2026-01-05T18:50:27+00:00|take_profit|AIM|long||||0.9|unknown|AIM If you have any from my previous alert ‼️ here . Pay attention if you want to secure any profit !
+4365|2026-01-06T12:50:59+00:00|entry|ALMS|long|15.75|||0.95|day_trade|ALMS got new pre market . The price moved to almost 18 plus . I placed me an order at 15.75 for any quick trade pre market. Most likely will update this one around  9:00 AM US ET. Please pay attention to the time associated with any trade idea!
+4366|2026-01-06T12:58:45+00:00|update|IMRX|long||||0.85|swing|IMRX  As mentioned yesterday still holding around 60% my average so far is around 6.55 I may end up selling another 20% to risk 20% in any possible data. I am watching to see if it will get any move today. If the data good and it gets sell the news event basically will add some in discount.
+4368|2026-01-06T13:03:27+00:00|update|ALMS|long||||0.9|unknown|ALMs filled
+4369|2026-01-06T13:04:13+00:00|update||long|15.55|15.7||0.9|unknown|Filled two orders at 15.70 15.55
+4370|2026-01-06T13:08:30+00:00|update|ALMS|long|15.05|||0.9|unknown|Averaged one more at 15.05 for that ALMS will see where it goes then .
+4371|2026-01-06T13:13:03+00:00|stop_loss_update|ALMS|long|||14.25|0.85|unknown|ALMS looks weak will most likely cut it if no support above 14.25 .
+4374|2026-01-06T13:18:56+00:00|update|ALMS|long||||0.85|unknown|Back green in my end ALMS ✅
+4375|2026-01-06T13:25:24+00:00|update|ALMS|long||||0.9|unknown|ALMS again back green: So far 4 orders: 15.70 15.55 15.08 14.75 All filled buy Sold one order to cover little of the cost at 15.82
+4378|2026-01-06T13:26:35+00:00|exit||long||||0.9|unknown|Sold one more block at 16.30 filled
+4381|2026-01-06T13:36:52+00:00|exit|ALMS|long||||0.9|unknown|ALMS  sold third order at  17.15 filled
+4385|2026-01-06T13:46:53+00:00|watchlist|ALMS|long||||0.85|unknown|ALMS 18
+4387|2026-01-06T13:56:38+00:00|take_profit||long||||0.9|unknown|Sold some more at 18.50 filled  What a great easy money  Left 15% of my holdings size to risk to the opening time .  I captured all my capital and good gain with it ✅
+4396|2026-01-06T14:44:37+00:00|exit|ALMS|long||||0.95|unknown|ALMS closed the last 15% around 21.45 didn’t want to risk holding them even it is small . I want to focus on other opportunities ✅!  It may move later and that’s always possible but I go by numbers and already made good money with it
+4397|2026-01-06T15:47:29+00:00|entry|AQST|long|5.95|||0.95|swing|Placed an order at 5.95 for AQST Swing trade  Valid till end of today!
+4398|2026-01-06T17:14:19+00:00|entry|SKYQ|long|0.52|||0.95|day_trade|Good afternoon 🌞 my great team. I am watching current market activities carefully. SKYQ I spotted a possible day trade there. Placed an order at 0.52 valid for the next 10 minutes
+4401|2026-01-07T00:28:48+00:00|watchlist|AMOD|long||||0.95|day_trade|Good evening my fantastic team. AMOD moved AH tonight around 43% not much big but it got some news.  The float around 42 M So it definitely needs good volume to perform a possible day trade tomorrow. I will add it to my pre market watch list.  NCPL  Also news AH and 37% move Will also add this to my pre market watch list.  There is also a super low float stock I am still collecting some info about it will share with you here as soon as I get the needed information!
+4402|2026-01-07T09:38:30+00:00|take_profit|IMRX|long||||0.85|unknown|Good early morning my incredible team! Reminder about  IMRX if you have any from last week alert ‼️. As you see 7 is in the bid price . I might secure profit gradually here as I always do! No data yet but it may get released any minute
+4404|2026-01-07T13:01:21+00:00|watchlist|IMRX|long||||0.85|unknown|Pay attention to IMRX team!
+4405|2026-01-07T13:16:32+00:00|entry|ASBP|long|0.135|||0.95|day_trade|ASBP news plus volume. I May Day trade it. Placed me an order at  0.1350 for the pre market action
+4408|2026-01-07T14:43:00+00:00|watchlist|IMRX|long||||0.85|unknown|IMRX 7.50
+4414|2026-01-07T17:40:31+00:00|take_profit|IMRX|long||||0.9|unknown|IMRX as I don’t want to be greedy for the data AH. I secured more out at 8.33 Kept only very few Less than 7% of my holdings size to risk. Biotech wildlife taught me to be careful as much as possible!
+4418|2026-01-07T21:09:22+00:00|exit|IMRX|long||||0.9|unknown|IMRX closed that 7% left at 7.12  I will watch for now …
+4423|2026-01-08T13:30:48+00:00|entry|FLYX|long|4.89|5.18||0.95|day_trade|Placed a day trade pre market order at  FLYX at  4.89 up to 5.18 Valid for  10 minutes  If it drops below 4.50 it is a bearish zone! News  The float around 80 M
+4426|2026-01-08T16:00:21+00:00|entry|AQST|long|6.05|||0.95|swing|AQST I placed an order for swing at 6.05 valid till 01:00 PM US ET
+4430|2026-01-08T18:12:38+00:00|watchlist|ACRV|long|1.9|||0.9|swing|ACRV I might start a small position around 1.90 for a swing pay attention team!
+4431|2026-01-08T18:51:19+00:00|update||long||||0.85|unknown|Got one order at 1.98 holding still
