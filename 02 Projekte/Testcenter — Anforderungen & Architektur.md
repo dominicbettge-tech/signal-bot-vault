@@ -385,7 +385,7 @@ Aus RADX-Review msg 4145 (2026-04-14).
 **Entscheidung:** Offset-Range im Sweep ergänzen, Gewinner als `ORDER_OFFSET_PCT` in der Live-Config verankern.
 
 **Verbunden mit:**
-- [[../Signal Bot]] — staggered_entry Memo (Bot soll mehrere Orders leicht über Jack-Preis platzieren)
+- [[02 Projekte/Signal Bot|Signal Bot]] — staggered_entry Memo (Bot soll mehrere Orders leicht über Jack-Preis platzieren)
 - Slippage-Modell (Section 2) — Offset + Spread zusammen modellieren
 
 ---

@@ -31,5 +31,5 @@ Hauptsignalquelle für den Signal Bot.
 
 ## Referenzen
 
-- [[Signal Bot v3]]
+- [[Signal Bot]]
 - [[Trading]]

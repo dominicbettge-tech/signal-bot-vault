@@ -102,3 +102,10 @@ updated: 2026-04-07
 - [ ] **debugpy** für Remote-VPS-Debugging einrichten
 - [ ] **plotly** für interaktive Backtest-Charts (statt matplotlib)
 - [ ] **optuna** für automatische Strategy-Optimierung
+
+---
+
+## Verwandt
+
+- [[Research/GitHub-Tools-Liste|GitHub Tools — Wertigkeits-Matrix]] — Kurzliste mit Ranking-Details
+- [[Signal-Bot-MOC]] — Haupt-Konsument der Tier-1-Tools

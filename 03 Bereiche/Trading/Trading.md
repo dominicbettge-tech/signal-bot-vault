@@ -33,5 +33,5 @@ Automatisierter US-Aktienhandel über Interactive Brokers. Signalquelle: Jack Sp
 
 ## Referenzen
 
-- [[Signal Bot v3]]
-- [[Backtest 2026-04-06 Jack-Sparo-Backtest]]
+- [[Signal Bot]]
+- [[Backtest/2026-04-06 Jack-Sparo-Backtest|Jack-Sparo-Backtest 2026-04-06]]

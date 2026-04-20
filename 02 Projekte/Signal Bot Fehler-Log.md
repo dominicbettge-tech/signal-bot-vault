@@ -6,7 +6,7 @@ erstellt: 2026-04-09
 
 # Signal Bot Fehler-Log
 
-Dokumentation aller behobenen und offenen Bugs im [[Signal Bot v3]].
+Dokumentation aller behobenen und offenen Bugs im [[Signal Bot]].
 
 ---
 

@@ -22,4 +22,4 @@ Finanzielle Unabhängigkeit durch automatisierten Handel. Signal Bot v3 läuft d
 ## Referenzen
 
 - [[Trading]]
-- [[Signal Bot v3]]
+- [[Signal Bot]]

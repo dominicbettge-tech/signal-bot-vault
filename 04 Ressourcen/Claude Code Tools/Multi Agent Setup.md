@@ -44,5 +44,5 @@ Jede Instanz hat eigene Login-Session, Settings und Memory.
 ## Referenzen
 
 - [[Claude Code Tools]]
-- [[Signal Bot v3]]
+- [[Signal Bot]]
 - [[Binance Volume Trading Bot]]
