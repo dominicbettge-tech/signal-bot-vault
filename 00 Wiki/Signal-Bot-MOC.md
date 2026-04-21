@@ -44,6 +44,7 @@ Map of Content für alle Signal-Bot-bezogenen Notizen im Vault. Ein zentraler Ei
 
 ## Implementation Plans & Architektur
 
+- [[Loop-Orchestrator]] — autonomes Lern-System (Miss-Event → Opus-Hypothese → Corpus-Sim → Ship-Gate → PENDING)
 - [[02 Projekte/H9 Opportunistic-Open-Buy — Implementierungsplan|H9 Opportunistic-Open-Buy Plan]]
 - [[02 Projekte/Testcenter — Architektur v2|Testcenter Architektur v2]]
 - [[02 Projekte/Orphan Protection Kalibrierung|Orphan-Protection Kalibrierung]]
