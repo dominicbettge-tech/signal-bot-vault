@@ -9,4 +9,5 @@ ticker: PN
 | Datum | Richtung | Preis | PnL | Status |
 |---|---|---|---|---|
 <!-- TRADES -->
+| [[Trades/2026-05-04 PN LONG.md\|2026-05-04]] | LONG | $5.1900 | $+0.00 | closed |
 | [[Trades/2026-05-04 PN LONG.md\|2026-05-04]] | LONG | $5.5700 | $+224.50 | closed |
